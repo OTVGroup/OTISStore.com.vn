@@ -136,12 +136,12 @@
         padding: 5px;
         text-align: center;
         color: #ffffff;
-        width: 170px;
+        width: 180px;
         box-sizing: border-box;
       }
 
       .product img {
-        width: 160px;
+        width: 170px;
         height: auto;
         border-radius: 5px;
         object-fit: cover;
@@ -284,84 +284,84 @@
       <!-- Các sản phẩm sẽ được lọc và hiển thị ở đây -->
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <div class="product kvtk">
         <img src="https://via.placeholder.com/150" alt="Vật Phẩm KVTK" />
-        <p class="product-name">Vật Phẩm KVTK 1</p>
-        <p class="product-price">300,000 VND</p>
+        <div class="product-name">Vật Phẩm KVTK 1</div>
+        <div class="product-price">300,000 VND</div>
       </div>
       <!--
       <div class="product lq">
         <img src="https://via.placeholder.com/150" alt="Tài Khoản Liên Quân" />
-        <p class="product-name">Tài Khoản Liên Quân 1</p>
-        <p class="product-price">500,000 VND</p>
+        <div class="product-name">Tài Khoản Liên Quân 1</div>
+        <div class="product-price">500,000 VND</div>
       </div>
       <div class="product ff">
         <img src="https://via.placeholder.com/150" alt="Free Fire" />
-        <p class="product-name">Tài Khoản Free Fire 1</p>
-        <p class="product-price">600,000 VND</p>
+        <div class="product-name">Tài Khoản Free Fire 1</div>
+        <div class="product-price">600,000 VND</div>
       </div>
       <div class="product coc">
         <img src="https://via.placeholder.com/150" alt="Clash of Clans" />
-        <p class="product-name">Tài Khoản Clash of Clans 1</p>
-        <p class="product-price">450,000 VND</p>
+        <div class="product-name">Tài Khoản Clash of Clans 1</div>
+        <div class="product-price">450,000 VND</div>
       </div>
       <div class="product dc">
         <img src="https://via.placeholder.com/150" alt="Dragon City" />
-        <p class="product-name">Tài Khoản Dragon City 1</p>
-        <p class="product-price">550,000 VND</p>
+        <div class="product-name">Tài Khoản Dragon City 1</div>
+        <div class="product-price">550,000 VND</div>
       </div>
       -->
     </div>
