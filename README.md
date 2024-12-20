@@ -48,7 +48,7 @@
       }
 
       .filter-container {
-        margin-top: 0;
+        margin-top: 15px;
         display: flex;
         justify-content: center;
         width: auto;
