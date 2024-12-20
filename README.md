@@ -1,4 +1,3 @@
-
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
@@ -49,23 +48,24 @@
       }
 
       .filter-container {
-        margin-top: 10px;
+        margin-top: 115px;
         display: flex;
         justify-content: center;
         padding: 5px;
+        background-color: white;
         width: auto;
       }
 
       .filter-button {
         border: none;
-        width: auto;
+        width: 55px;
         background-color: #000000;
         cursor: pointer;
       }
 
       .icon-filter {
-        width: 42px;
-        height: 42px;
+        width: 45px;
+        height: 45px;
         border-radius: 50%;
       }
 
@@ -141,7 +141,7 @@
       }
 
       .product img {
-        width: 100%;
+        width: 150px;
         height: auto;
         border-radius: 10px;
         object-fit: cover;
