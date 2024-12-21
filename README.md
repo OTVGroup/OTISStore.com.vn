@@ -43,15 +43,15 @@
 
       .header img {
         width: 80px;
-        height: auto;
+        height: 80px;
         cursor: pointer;
         border-radius: 50%;
         transition: transform 1s ease;
       }
 
       .icon-filter {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         transition: transform 1s ease;
       }
@@ -91,8 +91,8 @@
       }
 
       .icon img {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         object-fit: cover;
         border-radius: 50%;
       }
@@ -211,14 +211,13 @@
         align-items: center;
         position: fixed;
         justify-content: center;
-        top: 10px;
-        right: 10px;
-        width: 25px;
-        height: 25px;
+        top: 0;
+        right: 0;
+        width: 24px;
+        height: 24px;
         z-index: 1001;
         background-color: #2e2e2e;
-
-        border-radius: 15%;
+        border-radius: 0% 0% 0% 10%;
       }
 
       .home-button a {
@@ -233,81 +232,81 @@
       }
     </style>
   </head>
-  <div>
+  <div style="display: none">
     <!-- Thẻ Tìm -->
-    <h6 style="display: none">Nick KVTM</h6>
-    <h6 style="display: none">Mua acc KVTM</h6>
-    <h6 style="display: none">Bán acc KVTM</h6>
-    <h6 style="display: none">KVTM VIP</h6>
-    <h6 style="display: none">Acc KVTM rẻ nhất</h6>
-    <h6 style="display: none">KVTM full tài nguyên</h6>
-    <h6 style="display: none">Mua acc KVTM giá rẻ</h6>
-    <h6 style="display: none">Bán acc KVTM uy tín</h6>
-    <h6 style="display: none">Tặng acc KVTM</h6>
-    <h6 style="display: none">Cửa hàng acc KVTM</h6>
-    <h6 style="display: none">Nick Free Fire</h6>
-    <h6 style="display: none">Mua acc Free Fire</h6>
-    <h6 style="display: none">Bán acc Free Fire</h6>
-    <h6 style="display: none">Free Fire VIP</h6>
-    <h6 style="display: none">Acc Free Fire rẻ nhất</h6>
-    <h6 style="display: none">Free Fire full nhân vật</h6>
-    <h6 style="display: none">Acc Free Fire full skin</h6>
-    <h6 style="display: none">Mua acc Free Fire giá rẻ</h6>
-    <h6 style="display: none">Bán acc Free Fire uy tín</h6>
-    <h6 style="display: none">Tặng acc Free Fire</h6>
-    <h6 style="display: none">Cửa hàng acc Free Fire</h6>
-    <h6 style="display: none">Nick Clash of Clans</h6>
-    <h6 style="display: none">Mua acc Clash of Clans</h6>
-    <h6 style="display: none">Bán acc Clash of Clans</h6>
-    <h6 style="display: none">Clash of Clans VIP</h6>
-    <h6 style="display: none">Acc Clash of Clans rẻ nhất</h6>
-    <h6 style="display: none">Clash of Clans full tài nguyên</h6>
-    <h6 style="display: none">Acc Clash of Clans full cấp</h6>
-    <h6 style="display: none">Mua acc Clash of Clans giá rẻ</h6>
-    <h6 style="display: none">Bán acc Clash of Clans uy tín</h6>
-    <h6 style="display: none">Tặng acc Clash of Clans</h6>
-    <h6 style="display: none">Cửa hàng acc Clash of Clans</h6>
-    <h6 style="display: none">Nick Dragon City</h6>
-    <h6 style="display: none">Mua acc Dragon City</h6>
-    <h6 style="display: none">Bán acc Dragon City</h6>
-    <h6 style="display: none">Dragon City VIP</h6>
-    <h6 style="display: none">Acc Dragon City rẻ nhất</h6>
-    <h6 style="display: none">Dragon City full rồng</h6>
-    <h6 style="display: none">Acc Dragon City full tài nguyên</h6>
-    <h6 style="display: none">Mua acc Dragon City giá rẻ</h6>
-    <h6 style="display: none">Bán acc Dragon City uy tín</h6>
-    <h6 style="display: none">Tặng acc Dragon City</h6>
-    <h6 style="display: none">Cửa hàng acc Dragon City</h6>
-    <h6 style="display: none">Nick Liên Quân</h6>
-    <h6 style="display: none">Mua acc Liên Quân</h6>
-    <h6 style="display: none">Bán acc Liên Quân</h6>
-    <h6 style="display: none">Liên Quân VIP</h6>
-    <h6 style="display: none">Acc Liên Quân rẻ nhất</h6>
-    <h6 style="display: none">Liên Quân full tướng</h6>
-    <h6 style="display: none">Acc Liên Quân full skin</h6>
-    <h6 style="display: none">Mua acc Liên Quân giá rẻ</h6>
-    <h6 style="display: none">Bán acc Liên Quân uy tín</h6>
-    <h6 style="display: none">Tặng acc Liên Quân</h6>
-    <h6 style="display: none">Mua bán acc Liên Quân</h6>
-    <h6 style="display: none">Cửa hàng acc Liên Quân</h6>
-    <h6 style="display: none">Tài khoản</h6>
-    <h6 style="display: none">Nick</h6>
-    <h6 style="display: none">Mua ac</h6>
-    <h6 style="display: none">Bán acc</h6>
-    <h6 style="display: none">VIP</h6>
-    <h6 style="display: none">Giá rẻ</h6>
-    <h6 style="display: none">Full tài nguyên</h6>
-    <h6 style="display: none">Full nhân vật</h6>
-    <h6 style="display: none">Full skin</h6>
-    <h6 style="display: none">Cửa hàng acc</h6>
-    <h6 style="display: none">Cửa hàng uy tín</h6>
-    <h6 style="display: none">Tặng acc</h6>
-    <h6 style="display: none">Mua bán acc</h6>
-    <h6 style="display: none">Mùa mới</h6>
-    <h6 style="display: none">Cao thủ</h6>
+    <h6>Nick KVTM</h6>
+    <h6>Mua acc KVTM</h6>
+    <h6>Bán acc KVTM</h6>
+    <h6>KVTM VIP</h6>
+    <h6>Acc KVTM rẻ nhất</h6>
+    <h6>KVTM full tài nguyên</h6>
+    <h6>Mua acc KVTM giá rẻ</h6>
+    <h6>Bán acc KVTM uy tín</h6>
+    <h6>Tặng acc KVTM</h6>
+    <h6>Cửa hàng acc KVTM</h6>
+    <h6>Nick Free Fire</h6>
+    <h6>Mua acc Free Fire</h6>
+    <h6>Bán acc Free Fire</h6>
+    <h6>Free Fire VIP</h6>
+    <h6>Acc Free Fire rẻ nhất</h6>
+    <h6>Free Fire full nhân vật</h6>
+    <h6>Acc Free Fire full skin</h6>
+    <h6>Mua acc Free Fire giá rẻ</h6>
+    <h6>Bán acc Free Fire uy tín</h6>
+    <h6>Tặng acc Free Fire</h6>
+    <h6>Cửa hàng acc Free Fire</h6>
+    <h6>Nick Clash of Clans</h6>
+    <h6>Mua acc Clash of Clans</h6>
+    <h6>Bán acc Clash of Clans</h6>
+    <h6>Clash of Clans VIP</h6>
+    <h6>Acc Clash of Clans rẻ nhất</h6>
+    <h6>Clash of Clans full tài nguyên</h6>
+    <h6>Acc Clash of Clans full cấp</h6>
+    <h6>Mua acc Clash of Clans giá rẻ</h6>
+    <h6>Bán acc Clash of Clans uy tín</h6>
+    <h6>Tặng acc Clash of Clans</h6>
+    <h6>Cửa hàng acc Clash of Clans</h6>
+    <h6>Nick Dragon City</h6>
+    <h6>Mua acc Dragon City</h6>
+    <h6>Bán acc Dragon City</h6>
+    <h6>Dragon City VIP</h6>
+    <h6>Acc Dragon City rẻ nhất</h6>
+    <h6>Dragon City full rồng</h6>
+    <h6>Acc Dragon City full tài nguyên</h6>
+    <h6>Mua acc Dragon City giá rẻ</h6>
+    <h6>Bán acc Dragon City uy tín</h6>
+    <h6>Tặng acc Dragon City</h6>
+    <h6>Cửa hàng acc Dragon City</h6>
+    <h6>Nick Liên Quân</h6>
+    <h6>Mua acc Liên Quân</h6>
+    <h6>Bán acc Liên Quân</h6>
+    <h6>Liên Quân VIP</h6>
+    <h6>Acc Liên Quân rẻ nhất</h6>
+    <h6>Liên Quân full tướng</h6>
+    <h6>Acc Liên Quân full skin</h6>
+    <h6>Mua acc Liên Quân giá rẻ</h6>
+    <h6>Bán acc Liên Quân uy tín</h6>
+    <h6>Tặng acc Liên Quân</h6>
+    <h6>Mua bán acc Liên Quân</h6>
+    <h6>Cửa hàng acc Liên Quân</h6>
+    <h6>Tài khoản</h6>
+    <h6>Nick</h6>
+    <h6>Mua ac</h6>
+    <h6>Bán acc</h6>
+    <h6>VIP</h6>
+    <h6>Giá rẻ</h6>
+    <h6>Full tài nguyên</h6>
+    <h6>Full nhân vật</h6>
+    <h6>Full skin</h6>
+    <h6>Cửa hàng acc</h6>
+    <h6>Cửa hàng uy tín</h6>
+    <h6>Tặng acc</h6>
+    <h6>Mua bán acc</h6>
+    <h6>Mùa mới</h6>
+    <h6>Cao thủ</h6>
   </div>
   <body>
-    <div class="home-button"><a href="" title="Go to Home">&#8962;</a></div>
+    <div class="home-button"><a href="#" title="Go to Home">&#8962;</a></div>
     <div class="header">
       <div class="icon" onclick="filterProducts('kvtm')">
         <img
@@ -336,6 +335,7 @@
       <img
         src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
         alt="Logo Home"
+        style="border: 2px solid rgb(255, 255, 255)"
         onclick="filterProducts('all')"
       />
 
