@@ -131,7 +131,7 @@
       .productss1,
       .productss6 {
         width: 100%;
-        min-width: 480px;
+        min-width: 320px;
         height: auto;
         padding: 5px;
         text-align: center;
@@ -145,7 +145,7 @@
         padding: 5px;
         text-align: center;
         color: #ffffff;
-        width: 150px;
+        width: auto;
         box-sizing: border-box;
         opacity: 0;
         transform: translateY(50px);
@@ -163,8 +163,8 @@
       }
 
       .product img {
-        width: 140px;
-        height: 140px;
+        width: 190px;
+        height: 190px;
         border-radius: 5px;
         object-fit: cover;
       }
@@ -184,35 +184,52 @@
       .arrow-btn1,
       .arrow-btn2 {
         cursor: pointer;
-        font-size: 24px;
+        font-size: 28px;
         font-weight: bold;
         color: white;
-        width: 32px;
-        height: 26px;
-        padding: 2px;
-        background-color: #151515; /* Xanh lá cây */
-        border: none;
-        border-radius: 30%; /* Bo tròn nút */
+        width: 40px;
+        height: 28px;
+        background-color: #00000000;
+        border-radius: 3px;
         display: flex;
         text-align: center;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-        transition: background-color 0.3s, transform 0.2s;
-      }
-
-      .arrow-btn1:hover,
-      .arrow-btn2:hover {
-        background-color: #252525; /* Đậm hơn khi hover */
-        transform: scale(1.1); /* Phóng to nhẹ khi hover */
+        transition: background-color 0.5s, transform 0.5s;
       }
 
       .arrow-btn1:active,
       .arrow-btn2:active {
-        transform: scale(0.95); /* Nhấn nút nhỏ lại */
+        box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.2);
       }
 
       /* Hiệu ứng phát sáng */
       .glow-effect {
         box-shadow: 0 0 15px 3px rgba(255, 255, 255, 0.805); /* Màu vàng phát sáng */
+      }
+
+      .home-button {
+        display: inline-flex;
+        align-items: center;
+        position: fixed;
+        justify-content: center;
+        top: 10px;
+        right: 10px;
+        width: 25px;
+        height: 25px;
+        z-index: 1001;
+        background-color: #2e2e2e;
+
+        border-radius: 15%;
+      }
+
+      .home-button a {
+        color: white;
+        bottom: 1px;
+        text-decoration: none;
+        font-size: 24px;
+      }
+      .home-button:hover {
+        background-color: #858585;
+        transform: scale(1.1);
       }
     </style>
   </head>
@@ -290,6 +307,7 @@
     <h6 style="display: none">Cao thủ</h6>
   </div>
   <body>
+    <div class="home-button"><a href="" title="Go to Home">&#8962;</a></div>
     <div class="header">
       <div class="icon" onclick="filterProducts('kvtm')">
         <img
@@ -462,22 +480,14 @@
     </div>
 
     <div class="icon-container1">
-      <div id="arrowUp1" class="arrow-btn1" style="padding: 5px 0 0 0">^</div>
-      <div
-        id="arrowDown1"
-        class="arrow-btn1"
-        style="transform: rotate(180deg); padding: 5px 0 0 0"
-      >
+      <div id="arrowUp1" class="arrow-btn1">^</div>
+      <div id="arrowDown1" class="arrow-btn1" style="transform: rotate(180deg)">
         ^
       </div>
     </div>
     <div class="icon-container1">
-      <div id="arrowUp2" class="arrow-btn2" style="padding: 5px 0 0 0">^</div>
-      <div
-        id="arrowDown2"
-        class="arrow-btn2"
-        style="transform: rotate(180deg); padding: 5px 0 0 0"
-      >
+      <div id="arrowUp2" class="arrow-btn2">^</div>
+      <div id="arrowDown2" class="arrow-btn2" style="transform: rotate(180deg)">
         ^
       </div>
     </div>
