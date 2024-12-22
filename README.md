@@ -155,7 +155,26 @@
         transition: opacity 1s ease, transform 1s ease;
       }
 
-      .product img {
+      .product-img {
+        position: relative;
+        display: inline-block;
+        width: 190px;
+        height: 190px;
+        border-radius: 5px;
+      }
+
+      .product-no {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        border-radius: 0 0 5px 5px;
+        background-color: #b2b2b285;
+        font-size: 13px;
+        padding: 2px 0;
+      }
+
+      .product-img img {
         width: 190px;
         height: 190px;
         border-radius: 5px;
@@ -163,7 +182,7 @@
       }
 
       .product-name {
-        font-size: 13px;
+        font-size: 14px;
         margin: 10px 0 5px 0;
       }
 
@@ -374,93 +393,141 @@
       <!-- Vật Phẩm Khu Vườn Trên Mây -->
       <div class="productss1" id="kvtm">Ngọc</div>
       <div class="product kvtm">
-        <img src="IMG 1" alt="Ngọc Đỏ" />
+        <div class="product-img">
+          <img src="IMG 1" alt="Ngọc Đỏ" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">Ngọc Đỏ</div>
         <div class="product-price">Giá 1-1 VNĐ</div>
       </div>
       <div class="product kvtm">
-        <img src="IMG 2" alt="Ngọc Xanh" />
+        <div class="product-img">
+          <img src="IMG 2" alt="Ngọc Xanh" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">Ngọc Xanh</div>
         <div class="product-price">Giá 1-2 VNĐ</div>
       </div>
       <div class="product kvtm">
-        <img src="IMG 3" alt="Ngọc Vàng" />
+        <div class="product-img">
+          <img src="IMG 3" alt="Ngọc Vàng" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">Ngọc Vàng</div>
         <div class="product-price">Giá 1-3 VNĐ</div>
       </div>
       <div class="product kvtm">
-        <img src="IMG 4" alt="Ngọc Cam" />
+        <div class="product-img">
+          <img src="IMG 4" alt="Ngọc Cam" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">Ngọc Cam</div>
         <div class="product-price">Giá 1-4 VNĐ</div>
       </div>
       <div class="product kvtm">
-        <img src="IMG 5" alt="Ngọc Lục" />
+        <div class="product-img">
+          <img src="IMG 5" alt="Ngọc Lục" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">Ngọc Lục</div>
         <div class="product-price">Giá 1-5 VNĐ</div>
       </div>
       <div class="product kvtm">
-        <img src="IMG 6" alt="Ngọc Tím" />
+        <div class="product-img">
+          <img src="IMG 6" alt="Ngọc Tím" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">Ngọc Tím</div>
         <div class="product-price">Giá 1-6 VNĐ</div>
       </div>
       <div class="product kvtm">
-        <img src="IMG 7" alt="Ngọc Cầu Vòng" />
+        <div class="product-img">
+          <img src="IMG 7" alt="Ngọc Cầu Vòng" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">Ngọc Cầu Vòng</div>
         <div class="product-price">Giá 1-7 VNĐ</div>
       </div>
       <div class="productss1" id="kvtm">Vật Phẩm Khác</div>
       <div class="product kvtm">
-        <img src="IMG 8" alt="Vợt Vàng" />
+        <div class="product-img">
+          <img src="IMG 8" alt="Vợt Vàng" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">Vợt Vàng</div>
         <div class="product-price">Giá 1-8 VNĐ</div>
       </div>
       <div class="product kvtm">
-        <img src="IMG 9" alt="Vợt Xanh" />
+        <div class="product-img">
+          <img src="IMG 9" alt="Vợt Xanh" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">Vợt Xanh</div>
         <div class="product-price">Giá 1-9 VNĐ</div>
       </div>
       <!-- Acc Khu Vườn Trên Mây -->
       <div class="productss1" id="kvtm">Acc Khu Vườn Trên Mây</div>
       <div class="product kvtm">
-        <img src="IMG.1" alt="1" />
+        <div class="product-img">
+          <img src="IMG.1" alt="1" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">1</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
       </div>
       <!-- Acc Liên Quân Moblie -->
       <div class="product lq">
-        <img src="IMG.1" alt="2" />
+        <div class="product-img">
+          <img src="IMG.1" alt="2" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">2</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
       </div>
       <!-- Acc Clash Of Clans -->
       <div class="product coc">
-        <img src="IMG.1" alt="3" />
+        <div class="product-img">
+          <img src="IMG.1" alt="3" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">3</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
       </div>
       <!-- Acc Dragon City -->
       <div class="product dc">
-        <img src="IMG.1" alt="4" />
+        <div class="product-img">
+          <img src="IMG.1" alt="4" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">4</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
       </div>
       <!-- Acc Free Fire -->
       <div class="product ff">
-        <img src="IMG.1" alt="5" />
+        <div class="product-img">
+          <img src="IMG.1" alt="5" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">5</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
       </div>
       <!-- Thẻ Game -->
       <div class="productss6" id="khac">Thẻ Game</div>
       <div class="product khac">
-        <img src="IMG.1" alt="6" />
+        <div class="product-img">
+          <img src="IMG.1" alt="6" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">6</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
       </div>
       <!-- Game Khác -->
       <div class="productss6" id="khac">Game Khác</div>
       <div class="product khac">
-        <img src="IMG.1" alt="6" />
+        <div class="product-img">
+          <img src="IMG.1" alt="6" />
+          <div class="product-no">1024</div>
+        </div>
         <div class="product-name">6</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
       </div>
