@@ -49,15 +49,8 @@
         transition: transform 1s ease;
       }
 
-      .icon-filter {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        transition: transform 1s ease;
-      }
-
-      .icon-container1,
-      .icon-container2 {
+      .container1,
+      .container2 {
         position: fixed;
         bottom: 10px;
         height: auto;
@@ -68,11 +61,11 @@
         gap: 10px;
       }
 
-      .icon-container1 {
+      .container1 {
         left: 10px;
       }
 
-      .icon-container2 {
+      .container2 {
         right: 10px;
       }
 
@@ -84,9 +77,9 @@
         justify-content: center;
         transition: transform 1.5s ease;
       }
+
       .icon:active,
-      .header img:active,
-      .icon-filter:active {
+      .header img:active {
         transform: scale(1.2);
       }
 
@@ -308,60 +301,54 @@
   <body>
     <div class="home-button"><a href="#" title="Go to Home">&#8962;</a></div>
     <div class="header">
-      <div class="icon" onclick="filterProducts('kvtm')">
-        <img
-          src="https://i.pinimg.com/474x/39/2f/3a/392f3a868a6a44adb7b4514709941445.jpg"
-          alt="Logo Khu Vườn Trên Mây"
-          class="icon-filter"
-        />
-      </div>
+      <img
+        src="https://i.pinimg.com/474x/39/2f/3a/392f3a868a6a44adb7b4514709941445.jpg"
+        alt="Logo Khu Vườn Trên Mây"
+        style="width: 40px; height: 40px"
+        onclick="filterProducts('kvtm')"
+      />
 
-      <div class="icon" onclick="filterProducts('lq')">
-        <img
-          src="https://i.pinimg.com/474x/e1/14/f3/e114f324ca6461bb9b342f34292b60ad.jpg"
-          alt="Logo Liên Quân"
-          class="icon-filter"
-        />
-      </div>
+      <img
+        src="https://i.pinimg.com/474x/e1/14/f3/e114f324ca6461bb9b342f34292b60ad.jpg"
+        alt="Logo Liên Quân"
+        style="width: 40px; height: 40px"
+        onclick="filterProducts('lq')"
+      />
 
-      <div class="icon" onclick="filterProducts('coc')">
-        <img
-          src="https://i.pinimg.com/474x/8e/ae/cd/8eaecd44d50cf21bead6c2c9d540ceaf.jpg"
-          alt="Logo Clash of Clans"
-          class="icon-filter"
-        />
-      </div>
+      <img
+        src="https://i.pinimg.com/474x/8e/ae/cd/8eaecd44d50cf21bead6c2c9d540ceaf.jpg"
+        alt="Logo Clash of Clans"
+        style="width: 40px; height: 40px"
+        onclick="filterProducts('coc')"
+      />
 
       <img
         src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
         alt="Logo Home"
-        style="border: 2px solid rgb(255, 255, 255)"
+        style="border: 2px solid rgb(255, 255, 255); width: 75px; height: 75px"
         onclick="filterProducts('all')"
       />
 
-      <div class="icon" onclick="filterProducts('dc')">
-        <img
-          src="https://i.pinimg.com/474x/4b/2f/39/4b2f39d773c23626002eb7eeaacaebd7.jpg"
-          alt="Logo Dragon City"
-          class="icon-filter"
-        />
-      </div>
+      <img
+        src="https://i.pinimg.com/474x/4b/2f/39/4b2f39d773c23626002eb7eeaacaebd7.jpg"
+        alt="Logo Dragon City"
+        style="width: 40px; height: 40px"
+        onclick="filterProducts('dc')"
+      />
 
-      <div class="icon" onclick="filterProducts('ff')">
-        <img
-          src="https://i.pinimg.com/474x/bc/12/70/bc1270fbfd9b08f0a98cef6ead98dc7c.jpg"
-          alt="Logo Free Fire"
-          class="icon-filter"
-        />
-      </div>
+      <img
+        src="https://i.pinimg.com/474x/bc/12/70/bc1270fbfd9b08f0a98cef6ead98dc7c.jpg"
+        alt="Logo Free Fire"
+        style="width: 40px; height: 40px"
+        onclick="filterProducts('ff')"
+      />
 
-      <div class="icon" onclick="filterProducts('khac')">
-        <img
-          src="https://i.pinimg.com/474x/a6/6e/d5/a66ed5d684d002c477014c942c803fde.jpg"
-          alt="Logo Khác"
-          class="icon-filter"
-        />
-      </div>
+      <img
+        src="https://i.pinimg.com/474x/a6/6e/d5/a66ed5d684d002c477014c942c803fde.jpg"
+        alt="Logo Khác"
+        style="width: 40px; height: 40px"
+        onclick="filterProducts('khac')"
+      />
     </div>
 
     <div class="products" id="product-list">
@@ -479,20 +466,20 @@
       </div>
     </div>
 
-    <div class="icon-container1">
+    <div class="container1">
       <div id="arrowUp1" class="arrow-btn1">^</div>
       <div id="arrowDown1" class="arrow-btn1" style="transform: rotate(180deg)">
         ^
       </div>
     </div>
-    <div class="icon-container1">
+    <div class="container1">
       <div id="arrowUp2" class="arrow-btn2">^</div>
       <div id="arrowDown2" class="arrow-btn2" style="transform: rotate(180deg)">
         ^
       </div>
     </div>
 
-    <div class="icon-container2">
+    <div class="container2">
       <div class="icon" onclick="toggleContact('contact-Chatting')">
         <img
           src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
