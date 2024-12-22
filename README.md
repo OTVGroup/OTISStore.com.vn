@@ -158,8 +158,8 @@
       .product-img {
         position: relative;
         display: inline-block;
-        width: 190px;
-        height: 190px;
+        width: 150px;
+        height: 150px;
         border-radius: 5px;
       }
 
@@ -175,8 +175,8 @@
       }
 
       .product-img img {
-        width: 190px;
-        height: 190px;
+        width: 150px;
+        height: 150px;
         border-radius: 5px;
         object-fit: cover;
       }
@@ -479,7 +479,6 @@
       <div class="product lq">
         <div class="product-img">
           <img src="IMG.1" alt="2" />
-          <div class="product-no">1024</div>
         </div>
         <div class="product-name">2</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
@@ -488,7 +487,6 @@
       <div class="product coc">
         <div class="product-img">
           <img src="IMG.1" alt="3" />
-          <div class="product-no">1024</div>
         </div>
         <div class="product-name">3</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
@@ -497,7 +495,6 @@
       <div class="product dc">
         <div class="product-img">
           <img src="IMG.1" alt="4" />
-          <div class="product-no">1024</div>
         </div>
         <div class="product-name">4</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
@@ -506,7 +503,6 @@
       <div class="product ff">
         <div class="product-img">
           <img src="IMG.1" alt="5" />
-          <div class="product-no">1024</div>
         </div>
         <div class="product-name">5</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
@@ -526,7 +522,6 @@
       <div class="product khac">
         <div class="product-img">
           <img src="IMG.1" alt="6" />
-          <div class="product-no">1024</div>
         </div>
         <div class="product-name">6</div>
         <div class="product-price">Giá 2-1 VNĐ</div>
