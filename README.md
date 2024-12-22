@@ -183,14 +183,14 @@
 
       .product-name {
         font-size: 14px;
-        margin: 10px 0 5px 0;
+        margin-top: 5px;
       }
 
       .product-price {
         font-size: 13px;
         font-weight: bold;
         color: #ff5733;
-        margin: 0;
+        margin-top: 3px;
       }
 
       .arrow-btn1,
