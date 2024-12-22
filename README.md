@@ -119,7 +119,7 @@
       }
 
       .products {
-        margin-top: 25px;
+        margin-top: 35px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
