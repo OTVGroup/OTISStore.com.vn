@@ -162,13 +162,14 @@
 
       .product-no {
         position: absolute;
-        top: 100%;
+        top: calc(100% - 15px);
         left: 50%;
         transform: translate(
           -50%,
-          -100%
+          calc(-100% + 15px)
         ); /* Căn giữa theo chiều ngang và dọc */
         width: 100%;
+        height: 15px;
         border-radius: 0 0 5px 5px;
         background-color: #b2b2b285;
         font-size: 11px;
