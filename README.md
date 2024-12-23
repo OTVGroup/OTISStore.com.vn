@@ -164,7 +164,6 @@
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: auto;
         border-radius: 0 0 5px 5px;
         background-color: #b2b2b285;
         font-size: 12px;
@@ -172,14 +171,14 @@
       }
 
       .product-img1 img {
-        width: 80px;
-        height: 80px;
+        width: 95px;
+        height: 95px;
         border-radius: 5px;
         object-fit: cover;
       }
       .product-img2 img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         border-radius: 5px;
         object-fit: cover;
       }
