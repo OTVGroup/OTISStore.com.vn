@@ -166,7 +166,7 @@
         height: auto;
         border-radius: 0 0 5px 5px;
         background-color: #b2b2b285;
-        font-size: 13px;
+        font-size: 12px;
         padding: 1px 0;
       }
 
@@ -176,12 +176,12 @@
       }
 
       .product-name {
-        font-size: 13px;
+        font-size: 12px;
         margin-top: 5px;
       }
 
       .product-price {
-        font-size: 12px;
+        font-size: 11px;
         font-weight: bold;
         color: #ff5733;
         margin-top: 3px;
