@@ -119,6 +119,7 @@
       }
 
       .productss,
+      .productss0,
       .productss1,
       .productss6 {
         width: 100%;
@@ -128,6 +129,11 @@
         text-align: center;
         background-color: #252525;
         font-size: 14px;
+      }
+
+      .productss0 {
+        background-color: #000;
+        height: 0;
       }
 
       .product {
@@ -163,9 +169,9 @@
       .product-no {
         position: absolute;
 
-        transform: translate(0, -16px); /* Căn giữa theo chiều ngang và dọc */
+        transform: translate(0, -20px); /* Căn giữa theo chiều ngang và dọc */
         width: 100%;
-        height: 16px;
+        height: 20px;
         text-align: center;
         justify-content: center;
         border-radius: 0 0 5px 5px;
@@ -488,6 +494,8 @@
         </div>
         <div class="product-price">1-9 VNĐ</div>
       </div>
+
+      <div class="productss0" id="pd0"></div>
       <!-- Acc Khu Vườn Trên Mây -->
       <div class="productss1" id="kvtm">Acc Khu Vườn Trên Mây</div>
       <div class="product kvtm">
