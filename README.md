@@ -162,7 +162,7 @@
 
       .product-no {
         position: absolute;
-        bottom: 2px;
+        bottom: 0;
         width: 100%;
         border-radius: 0 0 5px 5px;
         background-color: #b2b2b285;
