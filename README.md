@@ -162,7 +162,12 @@
 
       .product-no {
         position: absolute;
-        bottom: 0;
+        top: 100%;
+        left: 50%;
+        transform: translate(
+          -50%,
+          -100%
+        ); /* Căn giữa theo chiều ngang và dọc */
         width: 100%;
         border-radius: 0 0 5px 5px;
         background-color: #b2b2b285;
