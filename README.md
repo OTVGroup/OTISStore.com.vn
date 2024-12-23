@@ -166,8 +166,7 @@
         width: 100%;
         border-radius: 0 0 5px 5px;
         background-color: #b2b2b285;
-        font-size: 12px;
-        padding: 1px 0;
+        font-size: 11px;
       }
 
       .product-img1 img {
