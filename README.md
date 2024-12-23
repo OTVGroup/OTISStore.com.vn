@@ -158,8 +158,8 @@
       .product-img {
         position: relative;
         display: inline-block;
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         border-radius: 5px;
       }
 
@@ -175,8 +175,8 @@
       }
 
       .product-img img {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         border-radius: 5px;
         object-fit: cover;
       }
