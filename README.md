@@ -42,8 +42,8 @@
       }
 
       .header img {
-        width: 80px;
-        height: 80px;
+        width: 65px;
+        height: 65px;
         cursor: pointer;
         border-radius: 50%;
         transition: transform 1s ease;
@@ -175,19 +175,19 @@
       }
 
       .product-img img {
-        width: 110px;
-        height: 110px;
+        width: 100px;
+        height: 100px;
         border-radius: 5px;
         object-fit: cover;
       }
 
       .product-name {
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 5px;
       }
 
       .product-price {
-        font-size: 13px;
+        font-size: 12px;
         font-weight: bold;
         color: #ff5733;
         margin-top: 3px;
