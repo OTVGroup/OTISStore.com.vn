@@ -42,8 +42,6 @@
       }
 
       .header img {
-        width: 65px;
-        height: 65px;
         cursor: pointer;
         border-radius: 50%;
         transition: transform 1s ease;
@@ -158,8 +156,8 @@
       .product-img {
         position: relative;
         display: inline-block;
-        width: 110px;
-        height: 110px;
+        width: 100px;
+        height: 100px;
         border-radius: 5px;
       }
 
@@ -171,7 +169,7 @@
         border-radius: 0 0 5px 5px;
         background-color: #b2b2b285;
         font-size: 13px;
-        padding: 2px 0;
+        padding: 1px 0;
       }
 
       .product-img img {
@@ -344,7 +342,7 @@
       <img
         src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
         alt="Logo Home"
-        style="border: 2px solid rgb(255, 255, 255); width: 75px; height: 75px"
+        style="border: 2px solid rgb(255, 255, 255); width: 60px; height: 60px"
         onclick="filterProducts('all')"
       />
 
