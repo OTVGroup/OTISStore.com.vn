@@ -124,7 +124,7 @@
       .productss1,
       .productss6 {
         width: 100%;
-        min-width: 320px;
+        min-width: 340px;
         height: auto;
         padding: 5px;
         text-align: center;
@@ -158,8 +158,8 @@
       .product-img {
         position: relative;
         display: inline-block;
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
         border-radius: 5px;
       }
 
@@ -175,8 +175,8 @@
       }
 
       .product-img img {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
         border-radius: 5px;
         object-fit: cover;
       }
