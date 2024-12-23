@@ -171,14 +171,14 @@
       }
 
       .product-img1 img {
-        width: 95px;
-        height: 95px;
+        width: 80px;
+        height: 80px;
         border-radius: 5px;
         object-fit: cover;
       }
       .product-img2 img {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         border-radius: 5px;
         object-fit: cover;
       }
