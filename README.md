@@ -197,8 +197,7 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc */
         width: max-content-content; /* Đảm bảo chỉ chiếm diện tích vừa đủ nội dung */
         font-size: 10px;
-        margin-top: 1px;
-        gap: 2.5px;
+        gap: 2px;
       }
 
       .product-price {
