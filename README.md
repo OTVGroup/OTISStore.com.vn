@@ -219,7 +219,7 @@
         font-weight: bold;
         color: white;
         width: 40px;
-        height: auto;
+        height: 50px;
         background-color: #00000000;
         border-radius: 3px;
         display: flex;
@@ -229,11 +229,13 @@
 
       .arrow-btn1:active,
       .arrow-btn6:active {
+        border-radius: 3px;
         box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.2);
       }
 
       /* Hiệu ứng phát sáng */
       .glow-effect {
+        border-radius: 3px;
         box-shadow: 0 0 15px 3px rgba(255, 255, 255, 0.805); /* Màu vàng phát sáng */
       }
 
