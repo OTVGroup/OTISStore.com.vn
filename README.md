@@ -219,7 +219,7 @@
         font-weight: bold;
         color: white;
         width: 40px;
-        height: 50px;
+        height: 45px;
         background-color: #00000000;
         border-radius: 3px;
         display: flex;
