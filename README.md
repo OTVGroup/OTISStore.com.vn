@@ -400,6 +400,24 @@
     <div class="products" id="product-list">
       <!-- Vật Phẩm Khu Vườn Trên Mây -->
 
+      <div class="productss1" id="kvtm">Hạt Giống</div>
+      <!-- 1 -->
+
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/50/b4/e0/50b4e0c0a8529aecb463a3d95b9d72f9.jpg"
+            alt="Táo"
+          />
+          <div class="product-no">x1000</div>
+        </div>
+        <div class="product-name">
+          <div class="product-price">10.000đđ</div>
+          /
+          <div class="product-pcs">1kvp</div>
+        </div>
+      </div>
+
       <!-- Vật Phẩm KVTM -->
       <div class="productss0" id="pd0"></div>
 
