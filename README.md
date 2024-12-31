@@ -224,6 +224,7 @@
         border-radius: 3px;
         display: flex;
         text-align: center;
+        justify-content: center;
         transition: background-color 0.5s, transform 0.5s;
       }
 
