@@ -110,8 +110,13 @@
         opacity: 1;
       }
 
+      .contact-Chatting img {
+        width: 75%;
+        margin: 10px 12.5% 0 12.5%;
+      }
+
       .products {
-        margin-top: 17.5px;
+        margin-top: 170.5px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -178,6 +183,7 @@
         width: 100%;
         text-align: center;
         justify-content: center;
+        text-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
         font-size: 10px;
       }
 
@@ -197,7 +203,7 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc */
         width: max-content-content; /* Đảm bảo chỉ chiếm diện tích vừa đủ nội dung */
         font-size: 10px;
-        gap: 2px;
+        gap: 1px;
       }
 
       .product-price {
@@ -400,26 +406,388 @@
     <div class="products" id="product-list">
       <!-- Vật Phẩm Khu Vườn Trên Mây -->
 
+      <div class="productss1" id="kvtm">Bọ</div>
+      <!-- 7 -->
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/b5/59/07/b559076ad355aa4b1675ac55e08f165e.jpg"
+            alt="Bọ Rùa"
+          />
+          <div class="product-no">x1000</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">150</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/ba/04/c8/ba04c8afd5021cb8cc55900cdb0d5c2b.jpg"
+            alt="Ốc Sên"
+          />
+          <div class="product-no">x1000</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">150</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/6d/d7/db/6dd7dbdb030a5f337fa762378e8f07de.jpg"
+            alt="Đom Đóm"
+          />
+          <div class="product-no">x1000</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">100</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/5f/0e/76/5f0e76aae9169c4663d9a8759fdf7bc0.jpg"
+            alt="Ong Mật"
+          />
+          <div class="product-no">x1000</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">100</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/02/8e/0e/028e0e144ec65a0c0673da30de975976.jpg"
+            alt="Chuồn Chuồn"
+          />
+          <div class="product-no">x1000</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">75</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/98/d4/b8/98d4b83c4711d7781c08618317219397.jpg"
+            alt="Bươm Bướm"
+          />
+          <div class="product-no">x1000</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">75</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/b4/0e/0a/b40e0ac8ebec442655827025a39dbc27.jpg"
+            alt="Sâu Xanh"
+          />
+          <div class="product-no">x1000</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">50</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
       <div class="productss1" id="kvtm">Hạt Giống</div>
-      <!-- 1 -->
-
+      <!-- 20 -->
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/0e/42/bd/0e42bd37a7df13b7f5148b4506747a44.jpg"
+            alt="Hồng"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">1500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
       <div class="product kvtm">
         <div class="product-img1">
           <img
             src="https://i.pinimg.com/474x/50/b4/e0/50b4e0c0a8529aecb463a3d95b9d72f9.jpg"
             alt="Táo"
           />
-          <div class="product-no">x1000</div>
+          <div class="product-no">x1500</div>
         </div>
         <div class="product-name">
-          <div class="product-price">10.000đđ</div>
+          <div class="product-pcs">1500</div>
           /
-          <div class="product-pcs">1kvp</div>
+          <div class="product-price">10k</div>
         </div>
       </div>
-
-      <!-- Vật Phẩm KVTM -->
-      <div class="productss0" id="pd0"></div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/d8/61/a3/d861a3624e9085350724a4e852cfdd45.jpg"
+            alt="Bông"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">1500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/04/4e/c3/044ec3aa766ef7fbdcf1c11e9d95e379.jpg"
+            alt="Tuyết"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">1500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/cd/72/ef/cd72ef092b254db4579e94f15352170b.jpg"
+            alt="O.Hương"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">1500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/ed/ba/fb/edbafbfc9ceac4bbefa40c39d54bb0bb.jpg"
+            alt="Dừa"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">1000</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/0a/4b/f5/0a4bf5ace4ac08a31f7a40c2af31dd6f.jpg"
+            alt="Chanh"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">1000</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/c8/a9/7b/c8a97b486670349beebf540a343d896b.jpg"
+            alt="D.Hấu"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">1000</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/4d/26/e9/4d26e92b76b8aea854cb58e0746b29f3.jpg"
+            alt="Trà"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">1000</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/c8/d4/74/c8d4743a5801357e670e039858ca4d04.jpg"
+            alt="Mít"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">1000</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/a3/3e/fc/a33efcd72ff80a699778a2d5f7f6882a.jpg"
+            alt="Dứa"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/ea/df/b2/eadfb2be03c048433f58f29084a952da.jpg"
+            alt="Xoài"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/cb/d8/2c/cbd82c87ffbb674d04e60bbf852e0780.jpg"
+            alt="Nho"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/5d/c2/9e/5dc29ee4b04df68cea8b27e21fdbbf8a.jpg"
+            alt="Lài"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/01/d3/ff/01d3ffb9b03bc825b0669078947fe645.jpg"
+            alt="Cúc"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/71/81/5d/71815dd8824f0f053a44347271199173.jpg"
+            alt="Bi"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">200</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/ae/78/f5/ae78f5769cf8fd98022af0d1bd3ad883.jpg"
+            alt="Sen"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">200</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/ec/10/23/ec102359c85185194c358439b198cdf7.jpg"
+            alt="H.Dương"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">200</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/e2/f6/b1/e2f6b14b164297f46626c737d94337ce.jpg"
+            alt="V.Quất"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">200</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/8f/87/9b/8f879b0d0877bac37e3d53e477a310ac.jpg"
+            alt="Dâu"
+          />
+          <div class="product-no">x1500</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">200</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
 
       <!-- ACC Game -->
       <!-- Acc Khu Vườn Trên Mây -->
@@ -513,6 +881,10 @@
             Liên Hệ
           </button>
         </div>
+        <img
+          src="https://i.pinimg.com/474x/b7/ff/a7/b7ffa7483252e829d97ce2978c82ce01.jpg"
+          alt="Hướng Dẫn"
+        />
         <p style="text-align: center; font-size: 14px">
           ❤️ OTISStore - Chân Thành Cảm Ơn Quý Khách! ❤️
         </p>
