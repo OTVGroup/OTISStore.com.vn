@@ -191,7 +191,7 @@
       .product-no {
         position: absolute;
         width: 100%;
-        padding: 1px;
+        height: 12px;
         font-size: 10px;
         text-align: center;
         justify-content: center;
