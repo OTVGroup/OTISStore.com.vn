@@ -732,8 +732,9 @@
               left: 10px;
               top: 10px;
               font-size: 14px;
-              background-color: #2d2c2c;
+              background-color: #404040;
               color: white;
+              border-radius: 2px;
             "
             onclick="sendMessageWithClipboard('');"
           >
