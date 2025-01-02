@@ -191,7 +191,7 @@
       .product-no {
         position: absolute;
         width: 100%;
-        height: 12px;
+        height: 15px;
         font-size: 10px;
         text-align: center;
         justify-content: center;
@@ -199,10 +199,10 @@
       }
 
       .product-img1 .product-no {
-        top: 62px;
+        top: 60px;
       }
       .product-img2 .product-no {
-        top: 128px;
+        top: 125px;
         background-color: #555555;
       }
 
