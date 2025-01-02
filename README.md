@@ -116,7 +116,7 @@
       }
 
       .products {
-        margin-top: 170.5px;
+        margin-top: 17px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -183,14 +183,13 @@
       .product-img1,
       .product-img2 {
         height: auto;
-        margin-bottom: 5px;
         position: relative;
         display: inline-block;
       }
 
       .product-no {
         position: absolute;
-        top: 70%;
+        top: 60%;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -212,7 +211,7 @@
         flex-direction: row; /* Sắp xếp phần tử theo hàng ngang */
         justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
         align-items: center; /* Căn giữa các phần tử theo chiều dọc */
-        width: max-content-content; /* Đảm bảo chỉ chiếm diện tích vừa đủ nội dung */
+        width: auto; /* Đảm bảo chỉ chiếm diện tích vừa đủ nội dung */
         font-size: 10px;
         gap: 1px;
       }
@@ -415,60 +414,36 @@
     </div>
 
     <div class="products" id="product-list">
+      <div class="productss1" id="kvtm">Combo SALE (-20%)</div>
       <!-- COMBO 1 -->
       <div class="product kvtm">
         <div class="product-img">
           <div class="product-img1">
             <img
-              src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
-              alt="Vợt Vàng"
+              src="https://i.pinimg.com/474x/c8/a9/7b/c8a97b486670349beebf540a343d896b.jpg"
+              alt="D.Hấu"
             />
-            <div class="product-no">x300</div>
+            <div class="product-no">x199</div>
           </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/4d/e1/3c/4de13ce0975519b0ab30911689682d37.jpg"
-              alt="Vợt Xanh"
-            />
-            <div class="product-no">x300</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1: Vợt Vàng ;Vợt Xanh</div>
-          /
-          <div class="product-price">10k</div>
-          (-17%)
-        </div>
-      </div>
-      <!-- COMBO 2 -->
-      <div class="product kvtm">
-        <div class="product-img">
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/4d/26/e9/4d26e92b76b8aea854cb58e0746b29f3.jpg"
               alt="Trà"
             />
-            <div class="product-no">x300</div>
+            <div class="product-no">x199</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/c8/d4/74/c8d4743a5801357e670e039858ca4d04.jpg"
               alt="Mít"
             />
-            <div class="product-no">x300</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/a3/3e/fc/a33efcd72ff80a699778a2d5f7f6882a.jpg"
-              alt="Dứa"
-            />
-            <div class="product-no">x300</div>
+            <div class="product-no">x199</div>
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 2: Trà ;Mít; Dứa</div>
+          <div class="product-pcs">Combo 1: D.Hấu ;Trà; Mít</div>
           /
-          <div class="product-price">20k</div>
+          <div class="product-price">11k</div>
           (-20%)
         </div>
       </div>
@@ -479,20 +454,34 @@
       <!-- Vật Phẩm Khu Vườn Trên Mây -->
 
       <div class="productss1" id="kvtm">Hạt Giống</div>
-      <!-- 4 -->
+      <!-- 3 -->
 
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/c8/a9/7b/c8a97b486670349beebf540a343d896b.jpg"
+            alt="D.Hấu"
+          />
+          <div class="product-no">x99999</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">500</div>
+          /
+          <div class="product-price">10k</div>
+        </div>
+      </div>
       <div class="product kvtm">
         <div class="product-img1">
           <img
             src="https://i.pinimg.com/474x/4d/26/e9/4d26e92b76b8aea854cb58e0746b29f3.jpg"
             alt="Trà"
           />
-          <div class="product-no">x300</div>
+          <div class="product-no">x99999</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">200</div>
+          <div class="product-pcs">450</div>
           /
-          <div class="product-price">5k</div>
+          <div class="product-price">10k</div>
         </div>
       </div>
       <div class="product kvtm">
@@ -501,72 +490,12 @@
             src="https://i.pinimg.com/474x/c8/d4/74/c8d4743a5801357e670e039858ca4d04.jpg"
             alt="Mít"
           />
-          <div class="product-no">x300</div>
+          <div class="product-no">x99999</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">200</div>
+          <div class="product-pcs">400</div>
           /
-          <div class="product-price">5k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/a3/3e/fc/a33efcd72ff80a699778a2d5f7f6882a.jpg"
-            alt="Dứa"
-          />
-          <div class="product-no">x300</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">150</div>
-          /
-          <div class="product-price">5k</div>
-        </div>
-      </div>
-
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/ec/10/23/ec102359c85185194c358439b198cdf7.jpg"
-            alt="H.Dương"
-          />
-          <div class="product-no">x300</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">150</div>
-          /
-          <div class="product-price">5k</div>
-        </div>
-      </div>
-
-      <div class="productss1" id="kvtm">Vật Phẩm Khác</div>
-      <!-- 2 -->
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
-            alt="Vợt Vàng"
-          />
-          <div class="product-no">x300</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">250</div>
-          /
-          <div class="product-price">5k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/4d/e1/3c/4de13ce0975519b0ab30911689682d37.jpg"
-            alt="Vợt Xanh"
-          />
-          <div class="product-no">x300</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">250</div>
-          /
-          <div class="product-price">5k</div>
+          <div class="product-price">10k</div>
         </div>
       </div>
 
