@@ -199,10 +199,10 @@
       }
 
       .product-img1 .product-no {
-        bottom: 15px;
+        top: 73px;
       }
       .product-img2 .product-no {
-        bottom: 8px;
+        top: 128px;
         background-color: #555555;
       }
 
