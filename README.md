@@ -116,7 +116,7 @@
       }
 
       .products {
-        margin-top: 170px;
+        margin-top: 17px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -222,6 +222,7 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc */
         width: auto; /* Đảm bảo chỉ chiếm diện tích vừa đủ nội dung */
         font-weight: bold;
+        height: auto;
         font-size: 10px;
         gap: 1px;
       }
