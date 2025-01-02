@@ -89,7 +89,7 @@
         border-radius: 50%;
       }
 
-      .contact-Chatting {
+      .contact-Content {
         position: fixed;
         color: white;
         background-color: #202020;
@@ -105,12 +105,12 @@
         z-index: 999;
       }
 
-      .contact-Chatting.active {
+      .contact-Content.active {
         transform: translate(-50%, -50%) scale(1);
         opacity: 1;
       }
 
-      .contact-Chatting img {
+      .contact-Content img {
         width: 75%;
         margin: 10px 12.5% 0 12.5%;
       }
@@ -701,13 +701,13 @@
     </div>
 
     <div class="container2">
-      <div class="icon" onclick="toggleContact('contact-Chatting')">
+      <div class="icon" onclick="toggleContact('contact-Content')">
         <img
-          src="https://i.pinimg.com/474x/e8/9b/26/e89b26c7cc12836e637c7ce3ea36c9bb.jpg"
-          alt="Chatting"
+          src="https://i.pinimg.com/474x/42/bc/f8/42bcf85126a5757cd190602a4952db32.jpg"
+          alt="Content"
         />
       </div>
-      <div class="contact-Chatting" id="contact-Chatting">
+      <div class="contact-Content" id="contact-Content">
         <div style="text-align: center; width: 100%">
           <div style="font-size: 18px; font-weight: 600">
             Thông Tin Chi Tiết!
@@ -721,7 +721,7 @@
               color: white;
               border: none;
             "
-            onclick="toggleContact('contact-Chatting')"
+            onclick="toggleContact('contact-Content')"
           >
             x
           </button>
@@ -729,12 +729,11 @@
             class="order"
             style="
               position: absolute;
-              left: 5px;
-              top: 3px;
+              left: 10px;
+              top: 10px;
               font-size: 14px;
-              background-color: #202020;
+              background-color: #2d2c2c;
               color: white;
-              border: none;
             "
             onclick="sendMessageWithClipboard('');"
           >
@@ -1033,7 +1032,7 @@
       }
 
       window.onload = function () {
-        const content = document.getElementById("contact-Chatting");
+        const content = document.getElementById("contact-Content");
         content.classList.add("active");
       };
     </script>
