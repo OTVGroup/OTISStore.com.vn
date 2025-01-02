@@ -447,7 +447,7 @@
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 1: D.Hấu ;Trà; Mít</div>
+          <div class="product-pcs">Combo: D.Hấu ;Trà; Mít</div>
           /
           <div class="product-price">11k</div>
           (-20%)
