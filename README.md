@@ -202,7 +202,7 @@
         bottom: 15px;
       }
       .product-img2 .product-no {
-        bottom: 9px;
+        bottom: 8px;
         background-color: #555555;
       }
 
