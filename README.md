@@ -154,7 +154,6 @@
         align-items: center;
         color: #ffffff;
         width: auto;
-        gap: 5px;
         box-sizing: border-box;
         opacity: 0;
         transform: translateY(50px);
