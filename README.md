@@ -199,7 +199,7 @@
       }
 
       .product-img1 .product-no {
-        bottom: 10px;
+        bottom: 15px;
       }
       .product-img2 .product-no {
         bottom: 0px;
@@ -222,7 +222,7 @@
         align-items: center; /* Căn giữa các phần tử theo chiều dọc */
         width: auto; /* Đảm bảo chỉ chiếm diện tích vừa đủ nội dung */
         font-weight: bold;
-        height: auto;
+        height: 12px;
         font-size: 10px;
         gap: 1px;
       }
