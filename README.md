@@ -199,7 +199,7 @@
       }
 
       .product-img1 .product-no {
-        top: 73px;
+        top: 62px;
       }
       .product-img2 .product-no {
         top: 128px;
