@@ -509,158 +509,16 @@
       <div class="productss0" id="pd0"></div>
       <!-- ACC Game -->
       <!-- Acc Khu Vườn Trên Mây -->
-      <div class="productss1" id="kvtm">ACC Khu Vườn Trên Mây</div>
-      <div class="product kvtm">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="1"
-          />
-          <div class="product-no">1</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="2"
-          />
-          <div class="product-no">2</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
+
       <!-- Acc Liên Quân Moblie -->
-      <div class="productss2" id="lq">Acc Liên Quân Moblie</div>
-      <div class="product lq">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="3"
-          />
-          <div class="product-no">3</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
-      <div class="product lq">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="4"
-          />
-          <div class="product-no">4</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
+
       <!-- Acc Clash Of Clans -->
-      <div class="productss3" id="coc">Acc Clash Of Clans</div>
-      <div class="product coc">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="5"
-          />
-          <div class="product-no">5</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
-      <div class="product coc">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="6"
-          />
-          <div class="product-no">6</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
+
       <!-- Acc Dragon City -->
-      <div class="productss4" id="dc">Acc Dragon City</div>
-      <div class="product dc">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="7"
-          />
-          <div class="product-no">7</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
-      <div class="product dc">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="8"
-          />
-          <div class="product-no">8</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
+
       <!-- Acc Free Fire -->
-      <div class="productss5" id="ff">Acc Free Fire</div>
-      <div class="product ff">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="9"
-          />
-          <div class="product-no">9</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
-      <div class="product ff">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="0"
-          />
-          <div class="product-no">0</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
+
       <!-- Khác -->
-      <div class="productss6" id="khac">Game Khác</div>
-      <div class="product khac">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="6"
-          />
-          <div class="product-no">6</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
-      <div class="product khac">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="7"
-          />
-          <div class="product-no">7</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
-      <div class="productss6" id="khac">Thẻ Game</div>
-      <div class="product khac">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="8"
-          />
-          <div class="product-no">8</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
-      <div class="product khac">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
-            alt="9"
-          />
-          <div class="product-no">9</div>
-        </div>
-        <div class="product-name"><div class="product-price">0 VNĐ</div></div>
-      </div>
 
       <!-- NỘI DUNG HIỂN THỊ -->
       <div class="productss" id="Test1" style="display: none">
