@@ -446,18 +446,18 @@
               src="https://i.pinimg.com/474x/21/4a/df/214adf99940201d44be9846e9285232e.jpg"
               alt="Hồng Sấy"
             />
-            <div class="product-no">x135</div>
+            <div class="product-no">x133</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/34/de/0a/34de0a0b909827f42dc53d00e0b8760d.jpg"
               alt="Vải Đỏ"
             />
-            <div class="product-no">x135</div>
+            <div class="product-no">x133</div>
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 1k: Hồng Sấy ;Vải Đỏ</div>
+          <div class="product-pcs">Combo 1k:Hồng Sấy ;Vải Đỏ</div>
         </div>
       </div>
       <!-- COMBO 1k -->
@@ -468,18 +468,18 @@
               src="https://i.pinimg.com/474x/24/89/30/2489301bc6cfbf6c06117e6b2bc18d88.jpg"
               alt="Nước Táo"
             />
-            <div class="product-no">x135</div>
+            <div class="product-no">x133</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/9c/e8/53/9ce853e70a0fc549d85bc38662d55540.jpg"
               alt="Vải Vàng"
             />
-            <div class="product-no">x135</div>
+            <div class="product-no">x133</div>
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 1k: Nước Táo ;Vải Vàng</div>
+          <div class="product-pcs">Combo 1k:Nước Táo ;Vải Vàng</div>
         </div>
       </div>
       <!-- COMBO 2k -->
@@ -487,21 +487,21 @@
         <div class="product-img">
           <div class="product-img1">
             <img
-              src="https://i.pinimg.com/474x/17/bb/c3/17bbc3a474173a2a3606b5c52a09b1d2.jpg"
-              alt="TD H.Hồng"
+              src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
+              alt="Vợt Vàng"
             />
-            <div class="product-no">x149</div>
+            <div class="product-no">x81</div>
           </div>
           <div class="product-img1">
             <img
-              src="https://i.pinimg.com/474x/14/82/c8/1482c876db5b1feb655e3153cc70f2a5.jpg"
-              alt="Trà H.Hồng"
+              src="https://i.pinimg.com/474x/4d/e1/3c/4de13ce0975519b0ab30911689682d37.jpg"
+              alt="Vợt Xanh"
             />
-            <div class="product-no">x149</div>
+            <div class="product-no">x81</div>
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 2k: TD H.Hồng ;Trà H.Hồng</div>
+          <div class="product-pcs">Combo 2k:Vợt Vàng ;Vợt Xanh</div>
         </div>
       </div>
       <!-- COMBO 2k -->
@@ -512,25 +512,25 @@
               src="https://i.pinimg.com/474x/cd/d2/04/cdd204f58ab6b093a94617f692f91398.jpg"
               alt="Ngọc Đỏ"
             />
-            <div class="product-no">x49</div>
+            <div class="product-no">x55</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/00/99/27/009927a35caced1eaa1598e8d5149f32.jpg"
               alt="Ngọc Xanh"
             />
-            <div class="product-no">x49</div>
+            <div class="product-no">x55</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/bc/19/9c/bc199c0f7626e3ab3f6cc0babf75086e.jpg"
               alt="Ngọc Vàng"
             />
-            <div class="product-no">x49</div>
+            <div class="product-no">x55</div>
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 2k: Ngọc Đỏ ;Ngọc Xanh; Ngọc Vàng</div>
+          <div class="product-pcs">Combo 2k:Ngọc Đỏ ;Ngọc Xanh; Ngọc Vàng</div>
         </div>
       </div>
       <!-- COMBO 2k -->
@@ -541,25 +541,25 @@
               src="https://i.pinimg.com/474x/b5/59/07/b559076ad355aa4b1675ac55e08f165e.jpg"
               alt="Bọ Rùa"
             />
-            <div class="product-no">x53</div>
+            <div class="product-no">x55</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/ba/04/c8/ba04c8afd5021cb8cc55900cdb0d5c2b.jpg"
               alt="Ốc Sên"
             />
-            <div class="product-no">x53</div>
+            <div class="product-no">x55</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/6d/d7/db/6dd7dbdb030a5f337fa762378e8f07de.jpg"
               alt="Đom Đóm"
             />
-            <div class="product-no">x53</div>
+            <div class="product-no">x55</div>
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 2k: Bọ Rùa ;Ốc Sên; Đom Đóm</div>
+          <div class="product-pcs">Combo 2k:Bọ Rùa ;Ốc Sên; Đom Đóm</div>
         </div>
       </div>
       <!-- Thẻ COMBO -->
@@ -578,7 +578,7 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">308</div>
+          <div class="product-pcs">305</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -595,7 +595,7 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">308</div>
+          <div class="product-pcs">305</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -612,7 +612,7 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">220</div>
+          <div class="product-pcs">218</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -626,7 +626,7 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">220</div>
+          <div class="product-pcs">218</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -645,28 +645,13 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">154</div>
+          <div class="product-pcs">174</div>
           /
           <div class="product-price">1k</div>
         </div>
       </div>
 
-      <!-- Trà 1 -->
-      <div class="productss1" id="kvtm">Trà</div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/14/82/c8/1482c876db5b1feb655e3153cc70f2a5.jpg"
-            alt="Trà H.Hồng"
-          />
-          <div class="product-no">x∞</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">132</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
+      <!-- Trà 0 -->
 
       <!-- Hoa Tươi 0 -->
 
@@ -687,7 +672,7 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">75</div>
+          <div class="product-pcs">78</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -701,7 +686,7 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">75</div>
+          <div class="product-pcs">78</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -715,43 +700,13 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">75</div>
+          <div class="product-pcs">78</div>
           /
           <div class="product-price">1k</div>
         </div>
       </div>
 
-      <!-- Hạt Giống 2 -->
-      <div class="productss1" id="kvtm">Hạt Giống</div>
-
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/cd/72/ef/cd72ef092b254db4579e94f15352170b.jpg"
-            alt="O.Hương"
-          />
-          <div class="product-no">x∞</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">334</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/ed/ba/fb/edbafbfc9ceac4bbefa40c39d54bb0bb.jpg"
-            alt="Dừa"
-          />
-          <div class="product-no">x∞</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">334</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
+      <!-- Hạt Giống 0 -->
 
       <!-- Vật Phẩm Khác 0 -->
 
