@@ -54,7 +54,7 @@
         justify-content: center;
         gap: 2%;
         padding: 15px;
-        z-index: 1000;
+        z-index: 999;
       }
 
       .header img {
@@ -116,14 +116,15 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(0.9);
-        opacity: 0;
+        display: none;
         transition: transform 0.3s ease, opacity 0.3s ease;
-        z-index: 999;
+        z-index: 1;
       }
 
       .contact-Content.active {
         transform: translate(-50%, -50%) scale(1);
-        opacity: 1;
+        display: block;
+        z-index: 999;
       }
 
       .contact-Content img {
@@ -302,10 +303,32 @@
         background-color: #858585;
         transform: scale(1.1);
       }
+      .gallery {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #000000;
+        z-index: 1000;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow-x: auto; /* Cuộn dọc */
+        scroll-behavior: smooth; /* Cuộn mượt */
+        align-content: center;
+      }
+      .gallery img {
+        width: 300px;
+        height: auto;
+        box-shadow: 0 0 5px 5px rgb(125, 125, 125);
+        margin: 10px calc(50% - 150px);
+      }
     </style>
   </head>
   <div style="display: none">
-    <!-- Thẻ Tìm -->
+    <!-- Thẻ Tìm Kiếm -->
     <h6>Nick KVTM</h6>
     <h6>Mua acc KVTM</h6>
     <h6>Bán acc KVTM</h6>
@@ -383,7 +406,9 @@
       alt="Logo"
       style="display: none"
     />
-    <div class="home-button"><a href="#" title="Go to Home">&#8962;</a></div>
+    <div class="home-button" onclick="infor('OFF')">
+      <a href="#" title="Go to Home">&#8962;</a>
+    </div>
     <div class="header">
       <img
         src="https://i.pinimg.com/474x/39/2f/3a/392f3a868a6a44adb7b4514709941445.jpg"
@@ -436,75 +461,60 @@
     </div>
 
     <div class="products" id="product-list">
-      <!-- Thẻ COMBO -->
-      <div class="productss1" id="kvtm">Combo SALE (-5%)</div>
+      <!-- COMBO -->
+      <div class="productss1" id="kvtm">Combo</div>
       <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/21/4a/df/214adf99940201d44be9846e9285232e.jpg"
-              alt="Hồng Sấy"
-            />
-            <div class="product-no">x133</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/34/de/0a/34de0a0b909827f42dc53d00e0b8760d.jpg"
-              alt="Vải Đỏ"
-            />
-            <div class="product-no">x133</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k:Hồng Sấy ;Vải Đỏ</div>
-        </div>
-      </div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/24/89/30/2489301bc6cfbf6c06117e6b2bc18d88.jpg"
-              alt="Nước Táo"
-            />
-            <div class="product-no">x133</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/9c/e8/53/9ce853e70a0fc549d85bc38662d55540.jpg"
-              alt="Vải Vàng"
-            />
-            <div class="product-no">x133</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k:Nước Táo ;Vải Vàng</div>
-        </div>
-      </div>
-      <!-- COMBO 2k -->
       <div class="product kvtm">
         <div class="product-img">
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
-              alt="Vợt Vàng"
+              alt="Vợt Trắng"
             />
-            <div class="product-no">x81</div>
+            <div class="product-no">x44</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/4d/e1/3c/4de13ce0975519b0ab30911689682d37.jpg"
               alt="Vợt Xanh"
             />
-            <div class="product-no">x81</div>
+            <div class="product-no">x44</div>
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 2k:Vợt Vàng ;Vợt Xanh</div>
+          <div class="product-pcs">Combo 1k:Vợt Trắng ;Vợt Xanh</div>
         </div>
       </div>
-      <!-- COMBO 2k -->
+      <!-- COMBO 1k -->
+      <div class="product kvtm">
+        <div class="product-img">
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/34/de/0a/34de0a0b909827f42dc53d00e0b8760d.jpg"
+              alt="Vải Đỏ"
+            />
+            <div class="product-no">x104</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/9c/e8/53/9ce853e70a0fc549d85bc38662d55540.jpg"
+              alt="Vải Vàng"
+            />
+            <div class="product-no">x104</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/04/4f/04/044f04650a308ece32d597a7a7a435cf.jpg"
+              alt="Vải Tím"
+            />
+            <div class="product-no">x104</div>
+          </div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">Combo 1k:Vải Đỏ ;Vải Vàng; Vải Tím</div>
+        </div>
+      </div>
+      <!-- COMBO 1k -->
       <div class="product kvtm">
         <div class="product-img">
           <div class="product-img1">
@@ -512,96 +522,38 @@
               src="https://i.pinimg.com/474x/cd/d2/04/cdd204f58ab6b093a94617f692f91398.jpg"
               alt="Ngọc Đỏ"
             />
-            <div class="product-no">x55</div>
+            <div class="product-no">x28</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/00/99/27/009927a35caced1eaa1598e8d5149f32.jpg"
               alt="Ngọc Xanh"
             />
-            <div class="product-no">x55</div>
+            <div class="product-no">x28</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/bc/19/9c/bc199c0f7626e3ab3f6cc0babf75086e.jpg"
               alt="Ngọc Vàng"
             />
-            <div class="product-no">x55</div>
+            <div class="product-no">x28</div>
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 2k:Ngọc Đỏ ;Ngọc Xanh; Ngọc Vàng</div>
+          <div class="product-pcs">Combo 1k:Ngọc Đỏ ;Ngọc Xanh; Ngọc Vàng</div>
         </div>
       </div>
-      <!-- COMBO 2k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/b5/59/07/b559076ad355aa4b1675ac55e08f165e.jpg"
-              alt="Bọ Rùa"
-            />
-            <div class="product-no">x55</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/ba/04/c8/ba04c8afd5021cb8cc55900cdb0d5c2b.jpg"
-              alt="Ốc Sên"
-            />
-            <div class="product-no">x55</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/6d/d7/db/6dd7dbdb030a5f337fa762378e8f07de.jpg"
-              alt="Đom Đóm"
-            />
-            <div class="product-no">x55</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 2k:Bọ Rùa ;Ốc Sên; Đom Đóm</div>
-        </div>
-      </div>
-      <!-- Thẻ COMBO -->
+      <!-- COMBO 2k --><!-- COMBO 2k -->
+      <!-- COMBO -->
 
       <div class="productss0" id="pd0"></div>
 
       <!-- VP.KVTM -->
-      <!-- Sấy 1 -->
-      <div class="productss1" id="kvtm">Sấy</div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/21/4a/df/214adf99940201d44be9846e9285232e.jpg"
-            alt="Hồng Sấy"
-          />
-          <div class="product-no">x∞</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">305</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
+      <!-- Sấy 0 -->
 
-      <!-- Nước Ép 1 -->
-      <div class="productss1" id="kvtm">Nước Ép</div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/24/89/30/2489301bc6cfbf6c06117e6b2bc18d88.jpg"
-            alt="Nước Táo"
-          />
-          <div class="product-no">x∞</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">305</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
+      <!-- Nước Ép 0 -->
 
-      <!-- Vải 2 -->
+      <!-- Vải 3 -->
       <div class="productss1" id="kvtm">Vải</div>
       <div class="product kvtm">
         <div class="product-img1">
@@ -612,7 +564,7 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">218</div>
+          <div class="product-pcs">270</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -626,30 +578,72 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">218</div>
+          <div class="product-pcs">270</div>
           /
           <div class="product-price">1k</div>
         </div>
       </div>
-
-      <!-- Ngọc 0 -->
-
-      <!-- Tinh Dầu 1 -->
-      <div class="productss1" id="kvtm">Tinh Dầu</div>
       <div class="product kvtm">
         <div class="product-img1">
           <img
-            src="https://i.pinimg.com/474x/17/bb/c3/17bbc3a474173a2a3606b5c52a09b1d2.jpg"
-            alt="TD H.Hồng"
+            src="https://i.pinimg.com/474x/04/4f/04/044f04650a308ece32d597a7a7a435cf.jpg"
+            alt="Vải Tím"
           />
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">174</div>
+          <div class="product-pcs">270</div>
           /
           <div class="product-price">1k</div>
         </div>
       </div>
+
+      <!-- Ngọc 3 -->
+      <div class="productss1" id="kvtm">Ngọc</div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/cd/d2/04/cdd204f58ab6b093a94617f692f91398.jpg"
+            alt="Ngọc Đỏ"
+          />
+          <div class="product-no">x∞</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">72</div>
+          /
+          <div class="product-price">1k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/00/99/27/009927a35caced1eaa1598e8d5149f32.jpg"
+            alt="Ngọc Xanh"
+          />
+          <div class="product-no">x∞</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">72</div>
+          /
+          <div class="product-price">1k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/bc/19/9c/bc199c0f7626e3ab3f6cc0babf75086e.jpg"
+            alt="Ngọc Vàng"
+          />
+          <div class="product-no">x∞</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">72</div>
+          /
+          <div class="product-price">1k</div>
+        </div>
+      </div>
+
+      <!-- Tinh Dầu 0 -->
 
       <!-- Trà 0 -->
 
@@ -661,54 +655,40 @@
 
       <!-- Vật Phẩm May 0 -->
 
-      <!-- Bọ 3 -->
-      <div class="productss1" id="kvtm">Bọ</div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/b5/59/07/b559076ad355aa4b1675ac55e08f165e.jpg"
-            alt="Bọ Rùa"
-          />
-          <div class="product-no">x∞</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">78</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/ba/04/c8/ba04c8afd5021cb8cc55900cdb0d5c2b.jpg"
-            alt="Ốc Sên"
-          />
-          <div class="product-no">x∞</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">78</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/6d/d7/db/6dd7dbdb030a5f337fa762378e8f07de.jpg"
-            alt="Đom Đóm"
-          />
-          <div class="product-no">x∞</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">78</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
+      <!-- Bọ 0 -->
 
       <!-- Hạt Giống 0 -->
 
-      <!-- Vật Phẩm Khác 0 -->
+      <!-- Vật Phẩm Khác 2 -->
+      <div class="productss1" id="kvtm">Vật Phẩm Khác</div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
+            alt="Vợt Trắng"
+          />
+          <div class="product-no">x∞</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">77</div>
+          /
+          <div class="product-price">1k</div>
+        </div>
+      </div>
+      <div class="product kvtm">
+        <div class="product-img1">
+          <img
+            src="https://i.pinimg.com/474x/4d/e1/3c/4de13ce0975519b0ab30911689682d37.jpg"
+            alt="Vợt Xanh"
+          />
+          <div class="product-no">x∞</div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">77</div>
+          /
+          <div class="product-price">1k</div>
+        </div>
+      </div>
 
       <!-- Vàng & Vật Phẩm Sự Kiện 0 -->
 
@@ -718,24 +698,6 @@
 
       <!-- ACC Game -->
       <!-- ACC Game -->
-
-      <!-- Acc Khu Vườn Trên Mây -->
-      <!-- Acc Khu Vườn Trên Mây -->
-
-      <!-- Acc Liên Quân Moblie -->
-      <!-- Acc Liên Quân Moblie -->
-
-      <!-- Acc Clash Of Clans -->
-      <!-- Acc Clash Of Clans -->
-
-      <!-- Acc Dragon City -->
-      <!-- Acc Dragon City -->
-
-      <!-- Acc Free Fire -->
-      <!-- Acc Free Fire -->
-
-      <!-- Khác -->
-      <!-- Khác -->
 
       <!-- NỘI DUNG HIỂN THỊ -->
       <div class="productss" id="Test1" style="display: none">
@@ -825,6 +787,9 @@
         </p>
       </div>
     </div>
+
+    <!-- Thông Tin -->
+    <!-- Thông Tin -->
 
     <script>
       function filterProducts(category) {
@@ -1111,6 +1076,30 @@
         const content = document.getElementById("contact-Content");
         content.classList.add("active");
       };
+
+      function infor(ID) {
+        let contents = document.querySelectorAll(".gallery"); // Lấy tất cả phần tử có class 'gallery'
+        let element = document.getElementById(ID); // Lấy phần tử có ID được gọi
+        if (ID === "OFF") {
+          // Nếu ID là "OFF", ẩn tất cả các phần tử
+          contents.forEach(function (content) {
+            content.style.display = "none";
+          });
+        } else {
+          if (element.style.display === "none") {
+            // Nếu phần tử đang ẩn, hiển thị phần tử đó và ẩn tất cả các phần tử khác
+            contents.forEach(function (content) {
+              content.style.display = "none";
+            });
+            element.style.display = "block"; // Hiển thị phần tử đã chọn
+          } else {
+            // Nếu phần tử đang hiển thị, ẩn tất cả các phần tử
+            contents.forEach(function (content) {
+              content.style.display = "none";
+            });
+          }
+        }
+      }
     </script>
   </body>
 </html>
