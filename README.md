@@ -490,24 +490,24 @@
         <div class="product-img">
           <div class="product-img1">
             <img
-              src="https://i.pinimg.com/474x/34/de/0a/34de0a0b909827f42dc53d00e0b8760d.jpg"
+              src="https://i.pinimg.com/736x/34/de/0a/34de0a0b909827f42dc53d00e0b8760d.jpg"
               alt="Vải Đỏ"
             />
-            <div class="product-no">x104</div>
+            <div class="product-no">x99</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/9c/e8/53/9ce853e70a0fc549d85bc38662d55540.jpg"
               alt="Vải Vàng"
             />
-            <div class="product-no">x104</div>
+            <div class="product-no">x99</div>
           </div>
           <div class="product-img1">
             <img
               src="https://i.pinimg.com/474x/04/4f/04/044f04650a308ece32d597a7a7a435cf.jpg"
               alt="Vải Tím"
             />
-            <div class="product-no">x104</div>
+            <div class="product-no">x99</div>
           </div>
         </div>
         <div class="product-name">
@@ -526,7 +526,7 @@
           </div>
           <div class="product-img1">
             <img
-              src="https://i.pinimg.com/474x/00/99/27/009927a35caced1eaa1598e8d5149f32.jpg"
+              src="https://i.pinimg.com/736x/00/99/27/009927a35caced1eaa1598e8d5149f32.jpg"
               alt="Ngọc Xanh"
             />
             <div class="product-no">x28</div>
@@ -558,13 +558,13 @@
       <div class="product kvtm">
         <div class="product-img1">
           <img
-            src="https://i.pinimg.com/474x/34/de/0a/34de0a0b909827f42dc53d00e0b8760d.jpg"
+            src="https://i.pinimg.com/736x/34/de/0a/34de0a0b909827f42dc53d00e0b8760d.jpg"
             alt="Vải Đỏ"
           />
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">270</div>
+          <div class="product-pcs">266</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -578,7 +578,7 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">270</div>
+          <div class="product-pcs">258</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -592,7 +592,7 @@
           <div class="product-no">x∞</div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">270</div>
+          <div class="product-pcs">251</div>
           /
           <div class="product-price">1k</div>
         </div>
@@ -617,7 +617,7 @@
       <div class="product kvtm">
         <div class="product-img1">
           <img
-            src="https://i.pinimg.com/474x/00/99/27/009927a35caced1eaa1598e8d5149f32.jpg"
+            src="https://i.pinimg.com/736x/00/99/27/009927a35caced1eaa1598e8d5149f32.jpg"
             alt="Ngọc Xanh"
           />
           <div class="product-no">x∞</div>
@@ -659,7 +659,7 @@
 
       <!-- Hạt Giống 0 -->
 
-      <!-- Vật Phẩm Khác 2 -->
+      <!-- Vật Phẩm Khác 3 -->
       <div class="productss1" id="kvtm">Vật Phẩm Khác</div>
       <div class="product kvtm">
         <div class="product-img1">
