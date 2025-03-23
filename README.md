@@ -514,29 +514,6 @@
       <!-- Game Khác 0 -->
 
       <!-- Thẻ Game 2 -->
-      <div class="productss6" id="khac">Thẻ Game</div>
-      <div class="product khac">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/06/f5/d2/06f5d28713925ef0215a616738c28980.jpg"
-            alt="Thẻ Garena"
-            onclick="infor('Thẻ Garena')"
-          />
-          <div class="product-no">Thẻ Garena</div>
-        </div>
-        <div class="product-name"><div class="product-price">1 VNĐ</div></div>
-      </div>
-      <div class="product khac">
-        <div class="product-img2">
-          <img
-            src="https://i.pinimg.com/474x/12/d7/0c/12d70cd09e3b666e7daa9b3abe9af031.jpg"
-            alt="Thẻ Zing"
-            onclick="infor('Thẻ Zing')"
-          />
-          <div class="product-no">Thẻ Zing</div>
-        </div>
-        <div class="product-name"><div class="product-price">1 VNĐ</div></div>
-      </div>
 
       <!-- ACC Game -->
 
@@ -630,11 +607,7 @@
       </div>
     </div>
 
-    <!-- Thông Tin ACC-->
-
-    <div class="gallery" style="display: none" id="Thẻ Garena"></div>
-    <div class="gallery" style="display: none" id="Thẻ Zing"></div>
-
+    <!-- Thông Tin -->
     <!-- Thông Tin ACC-->
 
     <script>
