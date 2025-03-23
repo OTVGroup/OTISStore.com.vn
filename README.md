@@ -459,85 +459,10 @@
         onclick="filterProducts('khac')"
       />
     </div>
-
+    <!-- Danh Sách Hiển Thị -->
     <div class="products" id="product-list">
       <!-- COMBO -->
-      <div class="productss1" id="kvtm">Combo</div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
-              alt="Vợt Trắng"
-            />
-            <div class="product-no">x40</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/4d/e1/3c/4de13ce0975519b0ab30911689682d37.jpg"
-              alt="Vợt Xanh"
-            />
-            <div class="product-no">x40</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k:Vợt TrắngVợt Xanh</div>
-        </div>
-      </div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/b5/59/07/b559076ad355aa4b1675ac55e08f165e.jpg"
-              alt="Bọ Rùa"
-            />
-            <div class="product-no">x27</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/ba/04/c8/ba04c8afd5021cb8cc55900cdb0d5c2b.jpg"
-              alt="Ốc Sên"
-            />
-            <div class="product-no">x27</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/6d/d7/db/6dd7dbdb030a5f337fa762378e8f07de.jpg"
-              alt="Đom Đóm"
-            />
-            <div class="product-no">x27</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k:Bọ Rùa ;Ốc Sên; Đom Đóm</div>
-        </div>
-      </div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/ed/ba/fb/edbafbfc9ceac4bbefa40c39d54bb0bb.jpg"
-              alt="Dừa"
-            />
-            <div class="product-no">x268</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/0a/4b/f5/0a4bf5ace4ac08a31f7a40c2af31dd6f.jpg"
-              alt="Chanh"
-            />
-            <div class="product-no">x268</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k:Dừa ;Chanh</div>
-        </div>
-      </div>
-      <!-- COMBO 2k --><!-- COMBO 2k -->
-
+      <!-- COMBO 1k --><!-- COMBO 1k --><!-- COMBO 1k --><!-- COMBO 1k --><!-- COMBO 1k -->
       <!-- COMBO -->
 
       <div class="productss0" id="pd0"></div>
@@ -565,136 +490,9 @@
 
       <!-- Hạt Giống 0 -->
 
-      <!-- Bọ 7 -->
-      <div class="productss1" id="kvtm">Bọ</div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/b5/59/07/b559076ad355aa4b1675ac55e08f165e.jpg"
-            alt="Bọ Rùa"
-          />
-          <div class="product-no">x149</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">76</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/ba/04/c8/ba04c8afd5021cb8cc55900cdb0d5c2b.jpg"
-            alt="Ốc Sên"
-          />
-          <div class="product-no">x149</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">76</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/6d/d7/db/6dd7dbdb030a5f337fa762378e8f07de.jpg"
-            alt="Đom Đóm"
-          />
-          <div class="product-no">x149</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">76</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/5f/0e/76/5f0e76aae9169c4663d9a8759fdf7bc0.jpg"
-            alt="Ong Mật"
-          />
-          <div class="product-no">x149</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">76</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/02/8e/0e/028e0e144ec65a0c0673da30de975976.jpg"
-            alt="Chuồn Chuồn"
-          />
-          <div class="product-no">x149</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">76</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/98/d4/b8/98d4b83c4711d7781c08618317219397.jpg"
-            alt="Bươm Bướm"
-          />
-          <div class="product-no">x149</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">76</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/b4/0e/0a/b40e0ac8ebec442655827025a39dbc27.jpg"
-            alt="Sâu Xanh"
-          />
-          <div class="product-no">x149</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">76</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <!-- Vật Phẩm Khác 2 -->
-      <div class="productss1" id="kvtm">Vật Phẩm Khác</div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
-            alt="Vợt Trắng"
-          />
-          <div class="product-no">x149</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">76</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
-      <div class="product kvtm">
-        <div class="product-img1">
-          <img
-            src="https://i.pinimg.com/474x/4d/e1/3c/4de13ce0975519b0ab30911689682d37.jpg"
-            alt="Vợt Xanh"
-          />
-          <div class="product-no">x149</div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">76</div>
-          /
-          <div class="product-price">1k</div>
-        </div>
-      </div>
+      <!-- Bọ 0 -->
+
+      <!-- Vật Phẩm Khác 0 -->
 
       <!-- Vàng & Vật Phẩm Sự Kiện 0 -->
 
@@ -703,6 +501,43 @@
       <div class="productss0" id="pd0"></div>
 
       <!-- ACC Game -->
+      <!-- Acc Khu Vườn Trên Mây 0 -->
+
+      <!-- Acc Liên Quân Moblie 0 -->
+
+      <!-- Acc Clash Of Clans 0 -->
+
+      <!-- Acc Dragon City 0 -->
+
+      <!-- Acc Free Fire 0 -->
+
+      <!-- Game Khác 0 -->
+
+      <!-- Thẻ Game 2 -->
+      <div class="productss6" id="khac">Thẻ Game</div>
+      <div class="product khac">
+        <div class="product-img2">
+          <img
+            src="https://i.pinimg.com/474x/06/f5/d2/06f5d28713925ef0215a616738c28980.jpg"
+            alt="Thẻ Garena"
+            onclick="infor('Thẻ Garena')"
+          />
+          <div class="product-no">Thẻ Garena</div>
+        </div>
+        <div class="product-name"><div class="product-price">1 VNĐ</div></div>
+      </div>
+      <div class="product khac">
+        <div class="product-img2">
+          <img
+            src="https://i.pinimg.com/474x/12/d7/0c/12d70cd09e3b666e7daa9b3abe9af031.jpg"
+            alt="Thẻ Zing"
+            onclick="infor('Thẻ Zing')"
+          />
+          <div class="product-no">Thẻ Zing</div>
+        </div>
+        <div class="product-name"><div class="product-price">1 VNĐ</div></div>
+      </div>
+
       <!-- ACC Game -->
 
       <!-- NỘI DUNG HIỂN THỊ -->
@@ -726,6 +561,7 @@
       </div>
     </div>
 
+    <!-- Nút Điều Hướng -->
     <div class="container1">
       <div id="arrowUp1" class="arrow-btn1" style="transform: rotate(-90deg)">
         >
@@ -794,8 +630,12 @@
       </div>
     </div>
 
-    <!-- Thông Tin -->
-    <!-- Thông Tin -->
+    <!-- Thông Tin ACC-->
+
+    <div class="gallery" style="display: none" id="Thẻ Garena"></div>
+    <div class="gallery" style="display: none" id="Thẻ Zing"></div>
+
+    <!-- Thông Tin ACC-->
 
     <script>
       function filterProducts(category) {
