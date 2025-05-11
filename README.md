@@ -468,79 +468,6 @@
         <div class="product-img">
           <div class="product-img1">
             <img
-              src="https://i.pinimg.com/474x/4d/26/e9/4d26e92b76b8aea854cb58e0746b29f3.jpg"
-              alt="Trà"
-            />
-            <div class="product-no">x200</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/c8/d4/74/c8d4743a5801357e670e039858ca4d04.jpg"
-              alt="Mít"
-            />
-            <div class="product-no">x200</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/a3/3e/fc/a33efcd72ff80a699778a2d5f7f6882a.jpg"
-              alt="Dứa"
-            />
-            <div class="product-no">x200</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k:Trà ;Mít; Dứa</div>
-        </div>
-      </div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/ea/df/b2/eadfb2be03c048433f58f29084a952da.jpg"
-              alt="Xoài"
-            />
-            <div class="product-no">x270</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/cb/d8/2c/cbd82c87ffbb674d04e60bbf852e0780.jpg"
-              alt="Nho"
-            />
-            <div class="product-no">x270</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k:Xoài ;Nho</div>
-        </div>
-      </div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/736x/5d/c2/9e/5dc29ee4b04df68cea8b27e21fdbbf8a.jpg"
-              alt="Lài"
-            />
-            <div class="product-no">x220</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/01/d3/ff/01d3ffb9b03bc825b0669078947fe645.jpg"
-              alt="Cúc"
-            />
-            <div class="product-no">x220</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k:Lài ;Cúc</div>
-        </div>
-      </div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
               src="https://i.pinimg.com/736x/71/81/5d/71815dd8824f0f053a44347271199173.jpg"
               alt="Bi"
             />
@@ -562,7 +489,29 @@
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 1k:Bi ;Sen; H.Dương</div>
+          <div class="product-pcs">Combo 1k: Bi ;Sen; H.Dương</div>
+        </div>
+      </div>
+      <!-- COMBO 1k -->
+      <div class="product kvtm">
+        <div class="product-img">
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/736x/5d/c2/9e/5dc29ee4b04df68cea8b27e21fdbbf8a.jpg"
+              alt="Lài"
+            />
+            <div class="product-no">x220</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/01/d3/ff/01d3ffb9b03bc825b0669078947fe645.jpg"
+              alt="Cúc"
+            />
+            <div class="product-no">x220</div>
+          </div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">Combo 1k: Lài ;Cúc</div>
         </div>
       </div>
       <!-- COMBO 1k -->
@@ -584,7 +533,38 @@
           </div>
         </div>
         <div class="product-name">
-          <div class="product-pcs">Combo 1k:Vợt Trắng ;Vợt Xanh</div>
+          <div class="product-pcs">Combo 1k: Vợt Trắng ;Vợt Xanh</div>
+        </div>
+      </div>
+      <!-- COMBO 1k -->
+      <div class="product kvtm">
+        <div class="product-img">
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/5f/0e/76/5f0e76aae9169c4663d9a8759fdf7bc0.jpg"
+              alt="Ong Mật"
+            />
+            <div class="product-no">x27</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/02/8e/0e/028e0e144ec65a0c0673da30de975976.jpg"
+              alt="Chuồn Chuồn"
+            />
+            <div class="product-no">x27</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/98/d4/b8/98d4b83c4711d7781c08618317219397.jpg"
+              alt="Bươm Bướm"
+            />
+            <div class="product-no">x27</div>
+          </div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">
+            Combo 1k: Ong Mật ;Chuồn Chuồn; Bươm Bướm
+          </div>
         </div>
       </div>
       <!-- COMBO -->
