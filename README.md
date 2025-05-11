@@ -462,7 +462,131 @@
     <!-- Danh Sách Hiển Thị -->
     <div class="products" id="product-list">
       <!-- COMBO -->
-      <!-- COMBO 1k --><!-- COMBO 1k --><!-- COMBO 1k --><!-- COMBO 1k --><!-- COMBO 1k -->
+      <div class="productss1" id="kvtm">Combo</div>
+      <!-- COMBO 1k -->
+      <div class="product kvtm">
+        <div class="product-img">
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/4d/26/e9/4d26e92b76b8aea854cb58e0746b29f3.jpg"
+              alt="Trà"
+            />
+            <div class="product-no">x200</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/c8/d4/74/c8d4743a5801357e670e039858ca4d04.jpg"
+              alt="Mít"
+            />
+            <div class="product-no">x200</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/a3/3e/fc/a33efcd72ff80a699778a2d5f7f6882a.jpg"
+              alt="Dứa"
+            />
+            <div class="product-no">x200</div>
+          </div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">Combo 1k:Trà ;Mít; Dứa</div>
+        </div>
+      </div>
+      <!-- COMBO 1k -->
+      <div class="product kvtm">
+        <div class="product-img">
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/ea/df/b2/eadfb2be03c048433f58f29084a952da.jpg"
+              alt="Xoài"
+            />
+            <div class="product-no">x270</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/cb/d8/2c/cbd82c87ffbb674d04e60bbf852e0780.jpg"
+              alt="Nho"
+            />
+            <div class="product-no">x270</div>
+          </div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">Combo 1k:Xoài ;Nho</div>
+        </div>
+      </div>
+      <!-- COMBO 1k -->
+      <div class="product kvtm">
+        <div class="product-img">
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/5d/c2/9e/5dc29ee4b04df68cea8b26e21fdbbf8a.jpg"
+              alt="Lài"
+            />
+            <div class="product-no">x220</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/01/d3/ff/01d3ffb9b03bc825b0669078947fe645.jpg"
+              alt="Cúc"
+            />
+            <div class="product-no">x220</div>
+          </div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">Combo 1k:Lài ;Cúc</div>
+        </div>
+      </div>
+      <!-- COMBO 1k -->
+      <div class="product kvtm">
+        <div class="product-img">
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/71/81/5d/71815dd8824f0f053a44347261199173.jpg"
+              alt="Bi"
+            />
+            <div class="product-no">x120</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/ae/78/f5/ae78f5769cf8fd98022af0d1bd3ad883.jpg"
+              alt="Sen"
+            />
+            <div class="product-no">x120</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/ec/10/23/ec102359c85185194c358439b198cdf7.jpg"
+              alt="H.Dương"
+            />
+            <div class="product-no">x120</div>
+          </div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">Combo 1k:Bi ;Sen; H.Dương</div>
+        </div>
+      </div>
+      <!-- COMBO 1k -->
+      <div class="product kvtm">
+        <div class="product-img">
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
+              alt="Vợt Trắng"
+            />
+            <div class="product-no">x40</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/4d/e1/3c/4de13ce0975519b0ab30911689682d37.jpg"
+              alt="Vợt Xanh"
+            />
+            <div class="product-no">x40</div>
+          </div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">Combo 1k:Vợt Trắng ;Vợt Xanh</div>
+        </div>
+      </div>
       <!-- COMBO -->
 
       <div class="productss0" id="pd0"></div>
