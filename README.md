@@ -462,60 +462,6 @@
     <!-- Danh Sách Hiển Thị -->
     <div class="products" id="product-list">
       <!-- COMBO -->
-      <div class="productss1" id="kvtm">Combo</div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
-              alt="Vợt Trắng"
-            />
-            <div class="product-no">x40</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/4d/e1/3c/4de13ce0975519b0ab30911689682d37.jpg"
-              alt="Vợt Xanh"
-            />
-            <div class="product-no">x40</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k: Vợt Trắng ;Vợt Xanh</div>
-        </div>
-      </div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/5f/0e/76/5f0e76aae9169c4663d9a8759fdf7bc0.jpg"
-              alt="Ong Mật"
-            />
-            <div class="product-no">x27</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/02/8e/0e/028e0e144ec65a0c0673da30de975976.jpg"
-              alt="Chuồn Chuồn"
-            />
-            <div class="product-no">x27</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/98/d4/b8/98d4b83c4711d7781c08618317219397.jpg"
-              alt="Bươm Bướm"
-            />
-            <div class="product-no">x27</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">
-            Combo 1k: Ong Mật ;Chuồn Chuồn; Bươm Bướm
-          </div>
-        </div>
-      </div>
       <!-- COMBO -->
 
       <div class="productss0" id="pd0"></div>
