@@ -468,57 +468,6 @@
         <div class="product-img">
           <div class="product-img1">
             <img
-              src="https://i.pinimg.com/736x/71/81/5d/71815dd8824f0f053a44347271199173.jpg"
-              alt="Bi"
-            />
-            <div class="product-no">x120</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/ae/78/f5/ae78f5769cf8fd98022af0d1bd3ad883.jpg"
-              alt="Sen"
-            />
-            <div class="product-no">x120</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/ec/10/23/ec102359c85185194c358439b198cdf7.jpg"
-              alt="H.Dương"
-            />
-            <div class="product-no">x120</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k: Bi ;Sen; H.Dương</div>
-        </div>
-      </div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/736x/5d/c2/9e/5dc29ee4b04df68cea8b27e21fdbbf8a.jpg"
-              alt="Lài"
-            />
-            <div class="product-no">x220</div>
-          </div>
-          <div class="product-img1">
-            <img
-              src="https://i.pinimg.com/474x/01/d3/ff/01d3ffb9b03bc825b0669078947fe645.jpg"
-              alt="Cúc"
-            />
-            <div class="product-no">x220</div>
-          </div>
-        </div>
-        <div class="product-name">
-          <div class="product-pcs">Combo 1k: Lài ;Cúc</div>
-        </div>
-      </div>
-      <!-- COMBO 1k -->
-      <div class="product kvtm">
-        <div class="product-img">
-          <div class="product-img1">
-            <img
               src="https://i.pinimg.com/474x/cd/80/c0/cd80c01c223117492d6f11b31cbfb297.jpg"
               alt="Vợt Trắng"
             />
