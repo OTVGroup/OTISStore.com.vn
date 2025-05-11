@@ -519,7 +519,7 @@
         <div class="product-img">
           <div class="product-img1">
             <img
-              src="https://www.pinterest.com/pin/1077204804621182955/"
+              src="https://i.pinimg.com/736x/5d/c2/9e/5dc29ee4b04df68cea8b27e21fdbbf8a.jpg"
               alt="Lài"
             />
             <div class="product-no">x220</div>
@@ -541,7 +541,7 @@
         <div class="product-img">
           <div class="product-img1">
             <img
-              src="https://www.pinterest.com/pin/1077204804621183725/"
+              src="https://i.pinimg.com/736x/71/81/5d/71815dd8824f0f053a44347271199173.jpg"
               alt="Bi"
             />
             <div class="product-no">x120</div>
