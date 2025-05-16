@@ -2,13 +2,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Chất Lượng - Uy Tín - Tin Cậy." />
+    <meta name="description" content="Uy Tín Tạo Nên Thương Hiệu!" />
     <meta name="author" content="OTISStore" />
     <meta
       name="image"
       content="https://i.pinimg.com/474x/34/59/6a/34596a4db3932a3855c872c2f4833e5d.jpg"
     />
-    <title>OTISStore | SHOP ACC CHẤT LƯỢNG - UY TÍN - TIN CẬY</title>
+    <title>OTISStore | Uy Tín Tạo Nên Thương Hiệu!</title>
     <link
       rel="icon"
       type="image/jpeg"
@@ -462,6 +462,29 @@
     <!-- Danh Sách Hiển Thị -->
     <div class="products" id="product-list">
       <!-- COMBO -->
+      <div class="productss1" id="kvtm">Combo</div>
+      <!-- COMBO 1k -->
+      <div class="product kvtm">
+        <div class="product-img">
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/736x/5d/c2/9e/5dc29ee4b04df68cea8b27e21fdbbf8a.jpg"
+              alt="Lài"
+            />
+            <div class="product-no">x220</div>
+          </div>
+          <div class="product-img1">
+            <img
+              src="https://i.pinimg.com/474x/01/d3/ff/01d3ffb9b03bc825b0669078947fe645.jpg"
+              alt="Cúc"
+            />
+            <div class="product-no">x220</div>
+          </div>
+        </div>
+        <div class="product-name">
+          <div class="product-pcs">Combo 1k:Lài ;Cúc</div>
+        </div>
+      </div>
       <!-- COMBO -->
 
       <div class="productss0" id="pd0"></div>
