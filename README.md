@@ -522,10 +522,10 @@
       />
     </div>
     <!-- Show VP - Khu Vườn Trên Mây -->
-    <!-- <div class="products" id="product-items"></div> -->
+    <!-- <div class="products" id="product-items_VP"></div> -->
     <!-- <div style="width: 100%; height: 5px; background-color: #343434"></div> -->
     <!-- Show COMBO - Khu Vườn Trên Mây -->
-    <div class="products" id="product-itemss"></div>
+    <div class="products" id="product-items_CB"></div>
     <!-- <div style="width: 100%; height: 5px; background-color: #343434"></div> -->
     <!-- Show ACC - Khu Vườn Trên Mây -->
     <!-- <div class="productss" id="product-items1"></div> -->
@@ -727,32 +727,34 @@
 
     <script>
       // VP - Khu Vườn Trên Mây
-      const products = [];
-      const container = document.getElementById("product-items");
-      container.innerHTML = products
-        .map(
-          (product) => `<div class="items">
-                          <img src="${product.image}" alt="${product.name}" />
-                          <div class="items-content">
-                            <div class="name">${product.name}</div>
-                            <div class="flex-row">
-                              <div class="infor">SL:</div>
-                              <div class="no">${product.no}</div>
-                            </div>
-                            <div class="flex-row">
-                              <div class="infor">Giá:</div>
-                              <div class="price">${product.price}</div>
-                            </div>
-                            <div class="flex-row">
-                              <div class="quantity">Còn: ${product.quantity}</div>
-                              <button onclick='sendMessage("${product.name} ${product.no}")'>🛒</button>
-                            </div>
-                          </div>
-                        </div>`
-        )
-        .join("");
+      // const products = [];
 
-      // COMBO - Khu Vườn Trên Mây
+      // const containers = document.getElementById("product-items_VP");
+      // containers.innerHTML = products
+      //   .map(
+      //     (p) => `
+      //     <div class="items">
+      //       <img src="${p.image}" alt="${p.name}" />
+      //       <div class="items-content">
+      //         <div class="name">${p.name}</div>
+      //         <div class="flex-row">
+      //           <div class="infor">SL:</div>
+      //           <div class="no">${p.no}</div>
+      //         </div>
+      //         <div class="flex-row">
+      //           <div class="infor">Giá:</div>
+      //           <div class="price">${p.price}</div>
+      //         </div>
+      //         <div class="flex-row">
+      //           <div class="quantity">Còn: ${p.quantity}</div>
+      //           <button onclick='sendMessage("${p.name} x${p.no}")'>🛒</button>
+      //         </div>
+      //       </div>
+      //     </div>`
+      //   )
+      //   .join("");
+
+      // === Combo Products === //
       const productss = [
         {
           name: "CB.Vợt",
@@ -1002,98 +1004,60 @@
         //   quantity: "1",
         // },
       ];
-      const comboContainer = document.getElementById("product-itemss");
-      comboContainer.innerHTML = productss
-        .map((product) => {
-          const totalNo = [1, 2, 3, 4, 5].reduce((sum, i) => {
-            return sum + Number(product[`no${i}`] || 0);
-          }, 0);
+      const containerss = document.getElementById("product-items_CB");
+      containerss.innerHTML = productss
+        .map((combo) => {
+          // Tính tổng số lượng các item con
+          const items = [1, 2, 3, 4]
+            .map((i) => ({
+              image: combo[`image${i}`],
+              name: combo[`name${i}`],
+              no: combo[`no${i}`],
+            }))
+            .filter((item) => item.name); // chỉ lấy những item có dữ liệu
 
-          return `
-      <div class="items">
-        <img src="${product.image}" alt="${product.name}" />
-        <div class="items-content">
-          <div class="name">${product.name}</div>
-          <div class="flex-row">
-            <div class="infor">SL:</div>
-            <div class="no">${totalNo}</div>
-          </div>
-          <div class="flex-row">
-            <div class="infor">Giá:</div>
-            <div class="price">${product.price}</div>
-          </div>
-          <div class="flex-row">
-            <div class="quantity">Còn: ${product.quantity}</div>
-            <button onclick="Overlay('${product.name}')">🔍</button>
-          </div>
-        </div>
-      </div>
-      <div class="overlay" id="${product.name}">
-        <h2>Thông Tin Chi Tiết</h2>
-        <button style="left: 5px; background-color: #34ff19" onclick="sendMessage('${
-          product.name
-        } x${totalNo}')">🛒</button>  
-        <div class="overlay-content">
-          ${
-            product.image1
-              ? ` <img src="${product.image1}" alt="${product.name}" /><br>`
-              : ""
-          }
-          ${
-            product.name1
-              ? `<strong>${product.name1}: x${product.no1}</strong><br>`
-              : ""
-          }
-          <br>
-          ${
-            product.image2
-              ? ` <img src="${product.image2}" alt="${product.name}" /><br>`
-              : ""
-          }
-          ${
-            product.name2
-              ? `<strong>${product.name2}: x${product.no2}</strong><br>`
-              : ""
-          }
-          <br>
-          ${
-            product.image3
-              ? ` <img src="${product.image3}" alt="${product.name}" /><br>`
-              : ""
-          }
-          ${
-            product.name3
-              ? `<strong>${product.name3}: x${product.no3}</strong><br>`
-              : ""
-          }
-          <br>
-          ${
-            product.image4
-              ? ` <img src="${product.image4}" alt="${product.name}" /><br>`
-              : ""
-          }
-          ${
-            product.name4
-              ? `<strong>${product.name4}: x${product.no4}</strong><br>`
-              : ""
-          }
-          <br>
-          ${
-            product.image5
-              ? ` <img src="${product.image5}" alt="${product.name}" /><br>`
-              : ""
-          }
-          ${
-            product.name5
-              ? `<strong>${product.name5}: x${product.no5}</strong>`
-              : ""
-          }
-        </div>
-        <button style="right: 5px; background-color: #ff7676" onclick="Overlay('${
-          product.name
-        }')">x</button>
-      </div>
-    `;
+          const totalNo = items.reduce(
+            (sum, item) => sum + Number(item.no || 0),
+            0
+          );
+
+          const overlayItems = items
+            .map(
+              (item) => `
+              ${
+                item.image
+                  ? `<img src="${item.image}" alt="${item.name}" /><br>`
+                  : ""
+              }
+                 <strong>${item.name}: x${item.no}</strong><br><br>`
+            )
+            .join("");
+
+          return `<div class="items">
+                    <img src="${combo.image}" alt="${combo.name}" />
+                    <div class="items-content">
+                      <div class="name">${combo.name}</div>
+                      <div class="flex-row">
+                        <div class="infor">SL:</div>
+                        <div class="no">${totalNo}</div>
+                      </div>
+                      <div class="flex-row">
+                        <div class="infor">Giá:</div>
+                        <div class="price">${combo.price}</div>
+                      </div>
+                      <div class="flex-row">
+                        <div class="quantity">Còn: ${combo.quantity}</div>
+                        <button onclick="Overlay('${combo.name}')">🔍</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="overlay" id="${combo.name}">
+                    <h2>Thông Tin Chi Tiết</h2>
+                    <button style="left: 5px; background-color: #34ff19" onclick="sendMessage('${combo.name} x${totalNo}')">🛒</button>
+                    <div class="overlay-content">${overlayItems}</div>
+                    <button style="right: 5px; background-color: #ff7676" onclick="Overlay('${combo.name}')">x</button>
+                  </div>`;
         })
         .join("");
 
@@ -1107,47 +1071,47 @@
         { id: 6, name: "Game Khác", productsss: [] },
         { id: 7, name: "Thẻ Game", productsss: [] },
       ];
-
-      function generateProductHTML(product) {
+      function generateProductHTML(productsss) {
         return `
           <div class="itemss">
-            <img src="${product.image}" alt="${product.id}" />
+            <img src="${productsss.image}" alt="${productsss.id}" />
             <div class="itemss-content">
-              <div class="name">${product.id}</div>
+              <div class="name">${productsss.id}</div>
               <div class="flex-row">
-                <button onclick="Overlay('${product.id}')">🔍</button>
+                <button onclick="Overlay('${productsss.id}')">🔍</button>
                 <div class="infor">Giá:</div>
-                <div class="price">${product.price}</div>
+                <div class="price">${productsss.price}</div>
               </div>
             </div>
           </div>
-          <div class="overlay" id="${product.id}">
+          <div class="overlay" id="${productsss.id}">
             <h2>Thông Tin Chi Tiết</h2>
             <div class="overlay-img">
               ${[...Array(10).keys()]
                 .map(
                   (i) =>
-                    `<img src="${product[`image${i + 1}`]}" alt="img${i + 1}"/>`
+                    `<img src="${productsss[`image${i + 1}`]}" alt="img${
+                      i + 1
+                    }"/>`
                 )
                 .join("\n")}
             </div>
             <button style="left: 5px; background-color: #34ff19" onclick="sendMessage("${
-              product.id
+              productsss.id
             }")"">🛒</button>  
-            <div class="overlay-content">${product.title}</div>
+            <div class="overlay-content">${productsss.title}</div>
             <button style="right: 5px; background-color: #ff7676" onclick="Overlay('${
-              product.id
+              productsss.id
             }')">x</button>
           </div>
         `;
       }
-
       categories.forEach((category) => {
-        const container = document.getElementById(
+        const containersss = document.getElementById(
           `product-items${category.id}`
         );
-        if (container && category.productsss.length > 0) {
-          container.innerHTML = category.productsss
+        if (containersss && category.productsss.length > 0) {
+          containersss.innerHTML = category.productsss
             .map(generateProductHTML)
             .join("");
         }
