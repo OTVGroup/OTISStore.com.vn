@@ -568,24 +568,24 @@
       
     <div class="post-content">
       <b>🎯THU MUA ACC KVTM - GIÁ TỐT | CHỐT DEAL NGAY!🔥</b>
-      <b>🌿Acc Clone cắt xó? Không gì khó – đã có OTISStore!🔥</b>
-      <a>📌 OTISStore thu mua Acc KVTM các loại:</a>
+      <b>🌿Acc Clone cất xó? Không gì khó – đã có OTISStore!🔥</b>
+      <a>📌OTISStore thu mua Acc KVTM các loại:</a>
       <ul>
-        <li>✅ Level 60+ (Kèm chậu / Không chậu đều nhận)</li>
-        <li>✅ Sức chứa kho:
+        <li>✅Level 60+ (Kèm chậu / Không chậu đều nhận)</li>
+        <li>✅Sức chứa kho:
           <ul>
-            <li> ■ Kho 1: > 500 slot ■ Kho 2: > 500 slot</li>
-            <li> ■ Kho 3: > 400 slot ■ Kho 4: > 400 slot</li>
+            <li>▫️Kho 1: > 500 slot ▫️Kho 2: > 500 slot</li>
+            <li>▫️Kho 3: > 400 slot ▫️Kho 4: > 400 slot</li>
           </ul>
         </li>
       </ul>
       <a>⚡Giao dịch trực tiếp - Giá tốt, chốt deal - Uy tín 100%!</a>
-      <a>💬 Inbox để nhận thông báo trong 1 nốt nhạc!</a>
+      <a>💬Inbox để nhận thông báo trong 1 nốt nhạc!</a>
       <a href="tel:0329022431">📞 Hotline: 0329 022 431</a>
       <a href="https://otvgroup.github.io/OTISStore.com.vn" target="_blank" rel="nofollow noopener">
-        🌐 Website: https://otvgroup.github.io/OTISStore.com.vn
+        🌐Website: https://otvgroup.github.io/OTISStore.com.vn
       </a>
-      <b>✨ OTISSTORE - Uy Tín Tạo Nên Thương Hiệu!</b>
+      <b>✨OTISSTORE - Uy Tín Tạo Nên Thương Hiệu!</b>
       <a>#OTISStore #OTVGroup #ShopAcc #MuaAcc #BanAcc #AccGame #AccClone #KVTM #KhuVuonTrenMay #ChotDeal #GiaoDichUyTin</a>
     </div>`,
         ];
