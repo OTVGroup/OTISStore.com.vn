@@ -938,6 +938,42 @@
     <script>
       // VP - Khu Vườn Trên Mây
       const products = [
+        // VP.KVTM
+        // Sấy 0
+
+        // Nước Ép 0
+
+        // Vải 1
+
+        {
+          name: "Vải Trắng",
+          image:
+            "https://i.pinimg.com/736x/27/f1/da/27f1da5a75e6c469c5ff9f0bc67bf5ae.jpg",
+          no: "70",
+          price: "1k",
+          quantity: "3",
+        },
+
+        // Ngọc 0
+
+        // Tinh Dầu 0
+
+        // Trà 0
+
+        // Hoa Tươi 0
+
+        // Nước Hoa 0
+
+        // Túi Hương 0
+
+        // Vật Phẩm May 0
+
+        // Hạt Giống 0
+
+        // Bọ 0
+
+        // Vật Phẩm Khác 1
+
         {
           name: "Thỏi Bạc",
           image:
@@ -947,14 +983,7 @@
           quantity: "2",
         },
 
-        {
-          name: "Lọ N.Thần",
-          image:
-            "https://i.pinimg.com/474x/95/f8/0a/95f80ae795637d540e04105123cd216b.jpg",
-          no: "15",
-          price: "1k",
-          quantity: "2",
-        },
+        // Vàng & Vật Phẩm Sự Kiện 1
       ];
 
       const containers = document.getElementById("product-items_VP");
@@ -1578,7 +1607,7 @@
                   <li>
                     🟡 Facebook -
                     <a
-                      href="https://www.messenger.com/t/8735423149883387"
+                      href="https://www.messenger.com/t/OtisVo586"
                       target="_blank"
                       rel="nofollow noopener"
                       style="
