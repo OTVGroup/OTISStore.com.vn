@@ -873,7 +873,7 @@
             <strong>Liên kết chia sẻ:</strong>
             <div style="display: flex; gap: 10px">
               <!-- Facebook -->
-              <a href="https://facebook.com/OtisGamerVN" target="_blank">
+              <a href="https://facebook.com/OTV.OTISStore" target="_blank">
                 <img
                   src="https://i.pinimg.com/736x/c6/75/4f/c6754f858018877052f6b25bb2918b83.jpg"
                   alt="Facebook"
@@ -944,15 +944,6 @@
         // Nước Ép 0
 
         // Vải 1
-
-        {
-          name: "Vải Trắng",
-          image:
-            "https://i.pinimg.com/736x/27/f1/da/27f1da5a75e6c469c5ff9f0bc67bf5ae.jpg",
-          no: "70",
-          price: "1k",
-          quantity: "3",
-        },
 
         // Ngọc 0
 
@@ -1494,7 +1485,7 @@
               <li>
                 🔴 Fanpage Chính Thức: OTISStore -
                 <a
-                  href="https://www.facebook.com/OtisGamerVN"
+                  href="https://www.facebook.com/OTV.OTISStore"
                   target="_blank"
                   rel="nofollow noopener"
                   style="
@@ -1646,7 +1637,7 @@
                         color: rgb(59, 255, 154);
                       "
                     >
-                      thinhkvtm2006@gmail.com
+                      andyvo050806@gmail.com
                     </a>
                   </li>
                 </ul>
